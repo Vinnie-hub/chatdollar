@@ -343,6 +343,12 @@
       }
 
       @media (max-width: 768px) {
+        html,
+        body {
+          overflow-x: hidden !important;
+          position: relative;
+          width: 100%;
+        }
         .md\:grid-cols-2 {
           grid-template-columns: repeat(2, 1fr);
         }
