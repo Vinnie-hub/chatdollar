@@ -1,0 +1,3868 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      ChatDollar - Earn $15-$30/Hour Chatting Online | Work From Phone
+    </title>
+    <meta
+      name="description"
+      content="Start earning money today by chatting with foreigners online. Multiple earning methods: per hour, per message, per session. Work from your phone, no experience needed!"
+    />
+    <meta
+      name="keywords"
+      content="make money online, chat and earn, work from home, earn money chatting, online jobs, paid chatting, chat with foreigners"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💬</text></svg>"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💬</text></svg>"
+    />
+    <meta name="theme-color" content="#029f58" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://chatdollar.com/" />
+    <meta
+      property="og:title"
+      content="ChatDollar - Earn $15-$30/Hour Chatting Online from Your Phone"
+    />
+    <meta
+      property="og:description"
+      content="Start earning today! Chat with interesting people worldwide and get paid through 5 different methods. No experience needed."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ChatDollar - Get Paid to Chat Online" />
+    <meta
+      name="twitter:description"
+      content="Earn money chatting online with people worldwide. Flexible work from phone opportunities."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+    />
+
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <style>
+      /* ===== CSS VARIABLES & RESET ===== */
+      :root {
+        --primary: #029f58;
+        --primary-dark: #007640;
+        --primary-light: #e6f7ef;
+        --secondary: #4361ee;
+        --accent: #ff6b6b;
+        --success: #10b981;
+        --warning: #f59e0b;
+        --danger: #ef4444;
+
+        --text-900: #111827;
+        --text-800: #1f2937;
+        --text-700: #374151;
+        --text-600: #4b5563;
+        --text-500: #6b7280;
+        --text-400: #9ca3af;
+        --text-300: #d1d5db;
+
+        --bg-white: #ffffff;
+        --bg-light: #f9fafb;
+        --bg-lighter: #f3f4f6;
+
+        --border-light: #e5e7eb;
+        --border: #d1d5db;
+
+        --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        --shadow:
+          0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        --shadow-md:
+          0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        --shadow-lg:
+          0 10px 15px -3px rgba(0, 0, 0, 0.1),
+          0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        --shadow-xl:
+          0 20px 25px -5px rgba(0, 0, 0, 0.1),
+          0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+        --radius-sm: 0.375rem;
+        --radius: 0.5rem;
+        --radius-md: 0.75rem;
+        --radius-lg: 1rem;
+        --radius-xl: 1.5rem;
+        --radius-2xl: 2rem;
+        --radius-full: 9999px;
+
+        --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+        --transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        --max-width: 1200px;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        :root {
+          --transition-fast: 0ms;
+          --transition: 0ms;
+          --transition-slow: 0ms;
+        }
+      }
+
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+        font-size: 16px;
+      }
+
+      @media (max-width: 768px) {
+        html {
+          font-size: 14px;
+        }
+      }
+
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        line-height: 1.6;
+        color: var(--text-800);
+        background: var(--bg-white);
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 1.2;
+        color: var(--text-900);
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      ul,
+      ol {
+        list-style: none;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      button,
+      input,
+      textarea,
+      select {
+        font: inherit;
+        border: none;
+        background: none;
+        outline: none;
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      /* ===== LAYOUT UTILITIES ===== */
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+
+      @media (max-width: 640px) {
+        .container {
+          padding: 0 1rem;
+        }
+      }
+
+      .section {
+        padding: 5rem 0;
+      }
+      .section-sm {
+        padding: 3rem 0;
+      }
+      .section-lg {
+        padding: 8rem 0;
+      }
+      .section-xl {
+        padding: 10rem 0;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+      .text-left {
+        text-align: left;
+      }
+      .text-right {
+        text-align: right;
+      }
+
+      .mb-1 {
+        margin-bottom: 0.25rem;
+      }
+      .mb-2 {
+        margin-bottom: 0.5rem;
+      }
+      .mb-3 {
+        margin-bottom: 0.75rem;
+      }
+      .mb-4 {
+        margin-bottom: 1rem;
+      }
+      .mb-6 {
+        margin-bottom: 1.5rem;
+      }
+      .mb-8 {
+        margin-bottom: 2rem;
+      }
+      .mb-12 {
+        margin-bottom: 3rem;
+      }
+
+      .mt-1 {
+        margin-top: 0.25rem;
+      }
+      .mt-2 {
+        margin-top: 0.5rem;
+      }
+      .mt-4 {
+        margin-top: 1rem;
+      }
+      .mt-6 {
+        margin-top: 1.5rem;
+      }
+      .mt-8 {
+        margin-top: 2rem;
+      }
+      .mt-12 {
+        margin-top: 3rem;
+      }
+
+      .flex {
+        display: flex;
+      }
+      .flex-col {
+        flex-direction: column;
+      }
+      .items-center {
+        align-items: center;
+      }
+      .items-start {
+        align-items: flex-start;
+      }
+      .items-end {
+        align-items: flex-end;
+      }
+      .justify-center {
+        justify-content: center;
+      }
+      .justify-between {
+        justify-content: space-between;
+      }
+      .justify-end {
+        justify-content: flex-end;
+      }
+
+      .gap-2 {
+        gap: 0.5rem;
+      }
+      .gap-3 {
+        gap: 0.75rem;
+      }
+      .gap-4 {
+        gap: 1rem;
+      }
+      .gap-6 {
+        gap: 1.5rem;
+      }
+      .gap-8 {
+        gap: 2rem;
+      }
+
+      .grid {
+        display: grid;
+      }
+      .grid-cols-1 {
+        grid-template-columns: 1fr;
+      }
+      .grid-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .grid-cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .grid-cols-4 {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      @media (min-width: 768px) {
+        .md\:grid-cols-2 {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .md\:grid-cols-3 {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        .md\:grid-cols-4 {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+
+      /* ===== TYPOGRAPHY ===== */
+      .text-xs {
+        font-size: 0.75rem;
+      }
+      .text-sm {
+        font-size: 0.875rem;
+      }
+      .text-base {
+        font-size: 1rem;
+      }
+      .text-lg {
+        font-size: 1.125rem;
+      }
+      .text-xl {
+        font-size: 1.25rem;
+      }
+      .text-2xl {
+        font-size: 1.5rem;
+      }
+      .text-3xl {
+        font-size: 1.875rem;
+      }
+      .text-4xl {
+        font-size: 2.25rem;
+      }
+      .text-5xl {
+        font-size: 3rem;
+      }
+      .text-6xl {
+        font-size: 3.75rem;
+      }
+
+      @media (max-width: 768px) {
+        .text-5xl {
+          font-size: 2.5rem;
+        }
+        .text-6xl {
+          font-size: 3rem;
+        }
+      }
+
+      .font-normal {
+        font-weight: 400;
+      }
+      .font-medium {
+        font-weight: 500;
+      }
+      .font-semibold {
+        font-weight: 600;
+      }
+      .font-bold {
+        font-weight: 700;
+      }
+      .font-extrabold {
+        font-weight: 800;
+      }
+
+      .text-primary {
+        color: var(--primary);
+      }
+      .text-secondary {
+        color: var(--secondary);
+      }
+      .text-accent {
+        color: var(--accent);
+      }
+      .text-success {
+        color: var(--success);
+      }
+      .text-muted {
+        color: var(--text-600);
+      }
+      .text-light {
+        color: var(--text-400);
+      }
+
+      .gradient-text {
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      /* ===== BUTTONS ===== */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 0.875rem 2rem;
+        border-radius: var(--radius);
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.5;
+        cursor: pointer;
+        transition: all var(--transition-fast);
+        border: 2px solid transparent;
+        position: relative;
+        overflow: hidden;
+        user-select: none;
+        white-space: nowrap;
+      }
+
+      .btn:focus {
+        outline: 2px solid var(--primary);
+        outline-offset: 2px;
+      }
+
+      .btn:active {
+        transform: scale(0.98);
+      }
+
+      .btn-primary {
+        background: var(--primary);
+        color: white;
+        box-shadow: var(--shadow);
+      }
+
+      .btn-primary:hover {
+        background: var(--primary-dark);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .btn-secondary {
+        background: var(--success);
+        color: white;
+        box-shadow: var(--shadow);
+      }
+
+      .btn-secondary:hover {
+        background: #3ad494;
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .btn-accent {
+        background: var(--accent);
+        color: white;
+        box-shadow: var(--shadow);
+      }
+
+      .btn-accent:hover {
+        background: #ff5252;
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .btn-outline {
+        background: transparent;
+        border: 2px solid var(--primary);
+        color: var(--primary);
+      }
+
+      .btn-outline:hover {
+        background: var(--primary);
+        color: white;
+        transform: translateY(-2px);
+      }
+
+      .btn-lg {
+        padding: 1rem 2.5rem;
+        font-size: 1.125rem;
+      }
+
+      .btn-sm {
+        padding: 0.5rem 1.25rem;
+        font-size: 0.875rem;
+      }
+
+      .btn-block {
+        width: 100%;
+      }
+
+      /* ===== HEADER ===== */
+      .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        z-index: 1000;
+        box-shadow: var(--shadow);
+        transition: all var(--transition);
+      }
+
+      .header.scrolled {
+        padding: 0.5rem 0;
+        background: rgba(255, 255, 255, 0.98);
+      }
+
+      .header__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 0;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: var(--primary);
+        transition: var(--transition);
+      }
+
+      .logo:hover {
+        opacity: 0.9;
+      }
+
+      .logo__icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        border-radius: var(--radius-md);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.25rem;
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+
+      .nav__link {
+        color: var(--text-700);
+        font-weight: 500;
+        transition: var(--transition);
+        position: relative;
+        padding: 0.5rem 0;
+      }
+
+      .nav__link:hover {
+        color: var(--primary);
+      }
+
+      .nav__link::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--primary);
+        transition: var(--transition);
+      }
+
+      .nav__link:hover::after {
+        width: 100%;
+      }
+
+      .mobile-toggle {
+        display: none;
+        background: none;
+        border: none;
+        width: 2.5rem;
+        height: 2.5rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: var(--radius);
+        cursor: pointer;
+        color: var(--text-700);
+        transition: var(--transition);
+      }
+
+      .mobile-toggle:hover {
+        background: var(--bg-light);
+        color: var(--primary);
+      }
+
+      .mobile-toggle__icon {
+        font-size: 1.5rem;
+      }
+
+      /* ===== IMPROVED HERO SECTION ===== */
+      .hero {
+        padding: 10rem 0 5rem;
+        background: linear-gradient(135deg, #029f58 0%, #4361ee 100%);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:
+          radial-gradient(
+            circle at 20% 80%,
+            rgba(255, 255, 255, 0.15) 0%,
+            transparent 40%
+          ),
+          radial-gradient(
+            circle at 80% 20%,
+            rgba(255, 255, 255, 0.1) 0%,
+            transparent 40%
+          ),
+          radial-gradient(
+            circle at 40% 40%,
+            rgba(255, 255, 255, 0.05) 0%,
+            transparent 40%
+          );
+        animation: pulse 8s ease-in-out infinite alternate;
+      }
+
+      @keyframes pulse {
+        0% {
+          opacity: 0.5;
+          transform: scale(1);
+        }
+        100% {
+          opacity: 0.8;
+          transform: scale(1.1);
+        }
+      }
+
+      .hero__content {
+        position: relative;
+        z-index: 2;
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+      }
+
+      .hero__title {
+        font-size: clamp(3rem, 5.5vw, 4.5rem);
+        margin-bottom: 1.5rem;
+        line-height: 1.1;
+        text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(
+          135deg,
+          #ffffff 0%,
+          rgba(255, 255, 255, 0.9) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        letter-spacing: -0.5px;
+        font-weight: 800;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero__title-highlight {
+        background: linear-gradient(135deg, #ffd166, #ff9e66);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        position: relative;
+      }
+
+      .hero__title-highlight::after {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        width: 100%;
+        height: 12px;
+        background: rgba(255, 255, 255, 0.25);
+        z-index: -1;
+        border-radius: 4px;
+      }
+
+      .hero__subtitle {
+        font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+        opacity: 0.95;
+        margin-bottom: 2.5rem;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.6;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        font-weight: 400;
+      }
+
+      /* Professional Hero Stats Grid */
+      .hero__stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+        margin: 3.5rem auto 2.5rem;
+        max-width: 1000px;
+      }
+
+      @media (max-width: 1024px) {
+        .hero__stats {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 640px) {
+        .hero__stats {
+          grid-template-columns: 1fr;
+          gap: 1rem;
+        }
+      }
+
+      .hero-stat {
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: var(--radius-xl);
+        padding: 2rem 1.5rem;
+        transition: all var(--transition);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero-stat::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, #ff6b6b, #ffd166);
+        opacity: 0;
+        transition: var(--transition);
+      }
+
+      .hero-stat:hover {
+        background: rgba(255, 255, 255, 0.18);
+        transform: translateY(-5px);
+        border-color: rgba(255, 255, 255, 0.3);
+      }
+
+      .hero-stat:hover::before {
+        opacity: 1;
+      }
+
+      .hero-stat__number {
+        font-size: clamp(2.2rem, 4vw, 3.2rem);
+        font-weight: 800;
+        display: block;
+        margin-bottom: 0.5rem;
+        background: linear-gradient(135deg, #fff, rgba(255, 255, 255, 0.9));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        line-height: 1;
+      }
+
+      .hero-stat__label {
+        font-size: 0.9rem;
+        opacity: 0.9;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        color: rgba(255, 255, 255, 0.95);
+        font-weight: 500;
+      }
+
+      /* Professional Earning Methods in Hero */
+      .hero-methods {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: var(--radius-xl);
+        padding: 2.5rem;
+        margin: 3rem auto;
+        max-width: 1000px;
+      }
+
+      .hero-methods__title {
+        color: white;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        font-weight: 700;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+      }
+
+      .methods-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.2rem;
+      }
+
+      @media (max-width: 768px) {
+        .methods-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 480px) {
+        .methods-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .method-card {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: var(--radius-lg);
+        padding: 1.8rem 1.2rem;
+        text-align: center;
+        transition: all var(--transition);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .method-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          135deg,
+          rgba(255, 255, 255, 0.1),
+          transparent
+        );
+        opacity: 0;
+        transition: var(--transition);
+      }
+
+      .method-card:hover {
+        background: rgba(255, 255, 255, 0.15);
+        transform: translateY(-3px);
+        border-color: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      }
+
+      .method-card:hover::before {
+        opacity: 1;
+      }
+
+      .method-icon {
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+        display: block;
+        height: 60px;
+        line-height: 60px;
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+      }
+
+      .method-name {
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+        color: white;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      }
+
+      .method-desc {
+        font-size: 0.85rem;
+        opacity: 0.9;
+        color: rgba(255, 255, 255, 0.95);
+        line-height: 1.4;
+      }
+
+      .hero__cta {
+        margin-top: 3rem;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: fadeUp 0.8s ease 0.4s forwards;
+      }
+
+      /* ===== HOW IT WORKS ===== */
+      .steps-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 3rem;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      @media (max-width: 768px) {
+        .steps-container {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+          padding: 0 1rem;
+        }
+      }
+
+      .step-card {
+        background: var(--bg-white);
+        border-radius: var(--radius-xl);
+        padding: 3rem 2.5rem;
+        box-shadow: var(--shadow-xl);
+        transition: all var(--transition);
+        position: relative;
+        border: 1px solid var(--border-light);
+        text-align: center;
+        height: 100%;
+      }
+
+      .step-card:hover {
+        transform: translateY(-10px);
+        box-shadow: var(--shadow-2xl);
+        border-color: var(--primary-light);
+      }
+
+      .step-number {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0 auto 2.5rem;
+        position: relative;
+      }
+
+      .step-number::after {
+        content: "";
+        position: absolute;
+        top: -6px;
+        left: -6px;
+        right: -6px;
+        bottom: -6px;
+        border-radius: 50%;
+        border: 2px solid var(--primary-light);
+        animation: pulse 2s infinite;
+      }
+
+      .step-content h3 {
+        font-size: 1.6rem;
+        margin-bottom: 1.2rem;
+        color: var(--text-900);
+      }
+
+      .step-content p {
+        color: var(--text-600);
+        margin-bottom: 1.5rem;
+        line-height: 1.7;
+        font-size: 1.05rem;
+      }
+
+      /* ===== IMPROVED PROFILES SECTION ===== */
+      .profiles-section {
+        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .profiles-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:
+          radial-gradient(
+            circle at 20% 30%,
+            rgba(2, 159, 88, 0.03) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 80% 70%,
+            rgba(67, 97, 238, 0.03) 0%,
+            transparent 50%
+          );
+      }
+
+      /* Profiles Filters */
+      .profiles-filters {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-bottom: 3rem;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .filter-btn {
+        padding: 0.75rem 1.5rem;
+        background: var(--bg-white);
+        border: 2px solid var(--border);
+        border-radius: var(--radius-full);
+        font-weight: 600;
+        color: var(--text-600);
+        cursor: pointer;
+        transition: all var(--transition);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        box-shadow: var(--shadow-sm);
+      }
+
+      .filter-btn:hover {
+        border-color: var(--primary);
+        color: var(--primary);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .filter-btn.active {
+        background: var(--primary);
+        border-color: var(--primary);
+        color: white;
+      }
+
+      .filter-btn i {
+        font-size: 0.9rem;
+      }
+
+      /* Enhanced Profiles Grid */
+      .profiles-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 2.5rem;
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+
+      @media (max-width: 1200px) {
+        .profiles-grid {
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          gap: 2rem;
+          padding: 0 1rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .profiles-grid {
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        }
+      }
+
+      @media (max-width: 640px) {
+        .profiles-grid {
+          grid-template-columns: 1fr;
+          max-width: 400px;
+        }
+      }
+
+      /* Enhanced Profile Card */
+      .profile-card {
+        background: var(--bg-white);
+        border-radius: var(--radius-xl);
+        overflow: hidden;
+        box-shadow: var(--shadow-xl);
+        transition: all var(--transition);
+        position: relative;
+        border: 1px solid var(--border-light);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .profile-card:hover {
+        transform: translateY(-12px);
+        box-shadow: var(--shadow-2xl);
+        border-color: var(--primary-light);
+      }
+
+      .profile-card__header {
+        position: relative;
+        height: 240px;
+        overflow: hidden;
+      }
+
+      .profile-card__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: var(--transition-slow);
+      }
+
+      .profile-card:hover .profile-card__image {
+        transform: scale(1.08);
+      }
+
+      .profile-card__badge {
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        color: white;
+        padding: 0.5rem 1.25rem;
+        border-radius: var(--radius-full);
+        font-size: 0.85rem;
+        font-weight: 700;
+        box-shadow: var(--shadow-lg);
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .profile-card__badge i {
+        font-size: 0.8rem;
+      }
+
+      .profile-card__overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+        padding: 2rem 1.5rem 1rem;
+        color: white;
+      }
+
+      .profile-card__name {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 0.25rem;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .profile-card__info {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 0.9rem;
+        opacity: 0.95;
+      }
+
+      .profile-card__age,
+      .profile-card__location {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+      }
+
+      .profile-card__content {
+        padding: 1.75rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .profile-card__description {
+        color: var(--text-600);
+        margin-bottom: 1.5rem;
+        line-height: 1.6;
+        font-size: 0.95rem;
+        flex: 1;
+      }
+
+      .profile-card__tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .profile-card__tag {
+        background: var(--bg-light);
+        color: var(--text-700);
+        padding: 0.4rem 0.9rem;
+        border-radius: var(--radius-full);
+        font-size: 0.8rem;
+        font-weight: 500;
+        border: 1px solid var(--border-light);
+        transition: var(--transition);
+      }
+
+      .profile-card__tag:hover {
+        background: var(--primary-light);
+        color: var(--primary);
+        border-color: var(--primary-light);
+        transform: translateY(-2px);
+      }
+
+      .profile-card__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border-light);
+        margin-top: auto;
+      }
+
+      .profile-card__price {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: var(--primary);
+        line-height: 1;
+      }
+
+      .profile-card__price span {
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--text-500);
+        display: block;
+        margin-top: 0.25rem;
+      }
+
+      .profile-card__cta {
+        background: var(--primary);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: var(--radius);
+        font-weight: 600;
+        font-size: 0.95rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: var(--transition);
+        cursor: pointer;
+        border: none;
+      }
+
+      .profile-card__cta:hover {
+        background: var(--primary-dark);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .profile-card__cta i {
+        font-size: 0.9rem;
+      }
+
+      .no-profiles {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 4rem 2rem;
+        color: var(--text-500);
+      }
+
+      .no-profiles i {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        opacity: 0.5;
+      }
+
+      /* ===== EARNING METHODS ===== */
+      .earning-methods-section {
+        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+      }
+
+      .methods-highlight {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 3rem auto 0;
+      }
+
+      @media (max-width: 768px) {
+        .methods-highlight {
+          grid-template-columns: 1fr;
+          padding: 0 1rem;
+        }
+      }
+
+      .method-detail {
+        background: var(--bg-white);
+        border-radius: var(--radius-xl);
+        padding: 2.5rem 2rem;
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+        box-shadow: var(--shadow-lg);
+        transition: all var(--transition);
+        border: 1px solid var(--border-light);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .method-detail::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 5px;
+        background: linear-gradient(
+          to bottom,
+          var(--primary),
+          var(--secondary)
+        );
+        opacity: 1;
+        transition: var(--transition);
+      }
+
+      .method-detail:hover {
+        transform: translateY(-8px);
+        box-shadow: var(--shadow-xl);
+        border-color: var(--primary-light);
+      }
+
+      .method-detail__icon {
+        width: 70px;
+        height: 70px;
+        background: linear-gradient(135deg, var(--primary-light), #e3f2fd);
+        border-radius: var(--radius-lg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--primary);
+        font-size: 1.8rem;
+        flex-shrink: 0;
+        transition: var(--transition);
+      }
+
+      .method-detail:hover .method-detail__icon {
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        color: white;
+        transform: scale(1.08);
+      }
+
+      .method-detail__content {
+        flex: 1;
+      }
+
+      .method-detail__title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: var(--text-900);
+      }
+
+      .method-detail__description {
+        color: var(--text-600);
+        line-height: 1.7;
+        font-size: 1.05rem;
+      }
+
+      /* ===== BENEFITS ===== */
+      .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2.5rem;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      @media (max-width: 768px) {
+        .benefits-grid {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+          padding: 0 1rem;
+        }
+      }
+
+      .benefit-card {
+        background: var(--bg-white);
+        border-radius: var(--radius-xl);
+        padding: 3rem 2.5rem;
+        text-align: center;
+        box-shadow: var(--shadow-lg);
+        transition: all var(--transition);
+        border: 1px solid var(--border-light);
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+      }
+
+      .benefit-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5px;
+        background: linear-gradient(90deg, var(--primary), var(--secondary));
+      }
+
+      .benefit-card:hover {
+        transform: translateY(-10px);
+        box-shadow: var(--shadow-xl);
+        border-color: var(--primary-light);
+      }
+
+      .benefit-icon {
+        width: 90px;
+        height: 90px;
+        background: linear-gradient(135deg, var(--primary-light), #e3f2fd);
+        border-radius: var(--radius-lg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 2rem;
+        font-size: 2.2rem;
+        color: var(--primary);
+        transition: var(--transition);
+      }
+
+      .benefit-card:hover .benefit-icon {
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        color: white;
+        transform: scale(1.08) rotate(5deg);
+      }
+
+      .benefit-title {
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+        color: var(--text-900);
+        line-height: 1.3;
+      }
+
+      .benefit-description {
+        color: var(--text-600);
+        line-height: 1.7;
+        font-size: 1.05rem;
+      }
+
+      /* ===== TESTIMONIALS ===== */
+      .testimonials {
+        background: linear-gradient(135deg, var(--bg-light) 0%, #f0f7ff 100%);
+      }
+
+      .testimonial-slider {
+        position: relative;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .testimonial-slide {
+        background: var(--bg-white);
+        border-radius: var(--radius-2xl);
+        padding: 3.5rem;
+        box-shadow: var(--shadow-xl);
+        opacity: 0;
+        transform: translateX(50px);
+        transition: all 0.6s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+
+      @media (max-width: 768px) {
+        .testimonial-slide {
+          padding: 2.5rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .testimonial-slide {
+          padding: 2rem;
+        }
+      }
+
+      .testimonial-slide.active {
+        opacity: 1;
+        transform: translateX(0);
+        position: relative;
+      }
+
+      .testimonial-slide__content {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        color: var(--text-700);
+        margin-bottom: 2.5rem;
+        position: relative;
+        padding-left: 2.5rem;
+      }
+
+      .testimonial-slide__content::before {
+        content: '"';
+        position: absolute;
+        left: 0;
+        top: -1rem;
+        font-size: 4.5rem;
+        color: var(--primary-light);
+        font-family: Georgia, serif;
+        line-height: 1;
+      }
+
+      .testimonial-slide__author {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+
+      @media (max-width: 480px) {
+        .testimonial-slide__author {
+          flex-direction: column;
+          text-align: center;
+          gap: 1rem;
+        }
+      }
+
+      .testimonial-slide__avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid var(--primary-light);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .testimonial-slide__info {
+        flex: 1;
+      }
+
+      .testimonial-slide__name {
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+      }
+
+      .testimonial-slide__role {
+        color: var(--text-600);
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .testimonial-slide__rating {
+        color: var(--warning);
+        font-size: 0.95rem;
+      }
+
+      .slider-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+        margin-top: 3.5rem;
+      }
+
+      @media (max-width: 480px) {
+        .slider-controls {
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+      }
+
+      .slider-dots {
+        display: flex;
+        gap: 0.75rem;
+      }
+
+      .slider-dot {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: var(--border);
+        cursor: pointer;
+        transition: var(--transition);
+      }
+
+      .slider-dot.active {
+        background: var(--primary);
+        transform: scale(1.3);
+      }
+
+      .slider-arrow {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        background: var(--bg-white);
+        border: 2px solid var(--border);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: var(--transition);
+        box-shadow: var(--shadow-md);
+      }
+
+      .slider-arrow:hover {
+        background: var(--primary);
+        color: white;
+        border-color: var(--primary);
+        transform: scale(1.1);
+      }
+
+      /* ===== FAQ ===== */
+      .faq-grid {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .faq-item {
+        background: var(--bg-white);
+        border-radius: var(--radius-lg);
+        margin-bottom: 1.2rem;
+        overflow: hidden;
+        border: 1px solid var(--border-light);
+        transition: var(--transition);
+        box-shadow: var(--shadow-sm);
+      }
+
+      .faq-item:hover {
+        border-color: var(--primary);
+        box-shadow: var(--shadow-md);
+      }
+
+      .faq-item__question {
+        padding: 1.8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 700;
+        user-select: none;
+        background: var(--bg-light);
+        transition: var(--transition);
+        font-size: 1.1rem;
+      }
+
+      .faq-item__question:hover {
+        background: var(--primary-light);
+      }
+
+      .faq-item__icon {
+        transition: var(--transition);
+        font-size: 1.2rem;
+      }
+
+      .faq-item.active .faq-item__icon {
+        transform: rotate(45deg);
+        color: var(--primary);
+      }
+
+      .faq-item__answer {
+        padding: 0 1.8rem;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease;
+      }
+
+      .faq-item.active .faq-item__answer {
+        padding: 0 1.8rem 1.8rem;
+        max-height: 600px;
+      }
+
+      /* ===== CTA ===== */
+      .cta {
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--secondary) 100%
+        );
+        color: white;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .cta::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(
+          circle,
+          rgba(255, 255, 255, 0.1) 1px,
+          transparent 1px
+        );
+        background-size: 40px 40px;
+        animation: float 20s linear infinite;
+      }
+
+      .cta__content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .cta__title {
+        color: white;
+        margin-bottom: 1.5rem;
+        font-size: 3rem;
+      }
+
+      .cta__subtitle {
+        font-size: 1.3rem;
+        opacity: 0.95;
+        margin-bottom: 3.5rem;
+        line-height: 1.6;
+      }
+
+      .cta__buttons {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      @media (max-width: 640px) {
+        .cta__buttons {
+          flex-direction: column;
+          align-items: center;
+        }
+        .cta__buttons .btn {
+          width: 100%;
+          max-width: 300px;
+        }
+      }
+
+      /* ===== FOOTER ===== */
+      .footer {
+        background: var(--text-900);
+        color: white;
+        padding: 5rem 0 2.5rem;
+      }
+
+      .footer__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 4rem;
+        margin-bottom: 4rem;
+      }
+
+      @media (max-width: 768px) {
+        .footer__grid {
+          grid-template-columns: 1fr;
+          gap: 3rem;
+        }
+      }
+
+      .footer__brand {
+        max-width: 350px;
+      }
+
+      .footer__logo {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 1.5rem;
+      }
+
+      .footer__description {
+        color: rgba(255, 255, 255, 0.75);
+        line-height: 1.7;
+        margin-bottom: 2rem;
+        font-size: 1.05rem;
+      }
+
+      .footer__social {
+        display: flex;
+        gap: 1.2rem;
+      }
+
+      .footer__social-link {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.12);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transition);
+        font-size: 1.1rem;
+      }
+
+      .footer__social-link:hover {
+        background: var(--primary);
+        transform: translateY(-3px);
+      }
+
+      .footer__heading {
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        position: relative;
+        padding-bottom: 1rem;
+      }
+
+      .footer__heading::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background: var(--primary);
+      }
+
+      .footer__links {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .footer__link {
+        color: rgba(255, 255, 255, 0.75);
+        transition: var(--transition);
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 1.05rem;
+      }
+
+      .footer__link:hover {
+        color: white;
+        transform: translateX(5px);
+      }
+
+      .footer__bottom {
+        text-align: center;
+        padding-top: 2.5rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 0.95rem;
+      }
+
+      .footer__bottom a {
+        color: rgba(255, 255, 255, 0.85);
+        transition: var(--transition);
+      }
+
+      .footer__bottom a:hover {
+        color: var(--primary);
+      }
+
+      /* ===== MODAL ===== */
+      .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.85);
+        backdrop-filter: blur(8px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        padding: 1rem;
+        animation: fadeIn 0.3s ease;
+      }
+
+      .modal-content {
+        background: white;
+        border-radius: var(--radius-xl);
+        padding: 3rem;
+        max-width: 900px;
+        width: 100%;
+        position: relative;
+        max-height: 90vh;
+        overflow-y: auto;
+        animation: modalFadeIn 0.3s ease;
+        box-shadow: var(--shadow-2xl);
+      }
+
+      @media (max-width: 768px) {
+        .modal-content {
+          padding: 2rem;
+          margin: 1rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .modal-content {
+          padding: 1.5rem;
+        }
+      }
+
+      .modal-close {
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        background: var(--bg-light);
+        border: none;
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius: 50%;
+        font-size: 1.25rem;
+        cursor: pointer;
+        color: var(--text-600);
+        transition: var(--transition);
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .modal-close:hover {
+        background: var(--primary);
+        color: white;
+        transform: rotate(90deg);
+      }
+
+      /* ===== ANIMATIONS ===== */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes modalFadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes float {
+        0% {
+          transform: translate(0, 0) rotate(0deg);
+        }
+        100% {
+          transform: translate(30px, 30px) rotate(360deg);
+        }
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* ===== RESPONSIVE ===== */
+      @media (max-width: 768px) {
+        .section {
+          padding: 3.5rem 0;
+        }
+        .section-lg {
+          padding: 5rem 0;
+        }
+        .section-xl {
+          padding: 8rem 0;
+        }
+
+        .nav {
+          position: fixed;
+          top: 0;
+          right: -100%;
+          width: 85%;
+          max-width: 350px;
+          height: 100vh;
+          background: var(--bg-white);
+          flex-direction: column;
+          padding: 6rem 2.5rem 2.5rem;
+          box-shadow: var(--shadow-xl);
+          transition: right 0.3s ease;
+          z-index: 999;
+        }
+
+        .nav.active {
+          right: 0;
+        }
+
+        .nav__link {
+          padding: 1.2rem;
+          width: 100%;
+          font-size: 1.1rem;
+        }
+
+        .mobile-toggle {
+          display: flex;
+          z-index: 1000;
+        }
+
+        .hero {
+          padding: 8rem 0 3rem;
+        }
+        .hero-methods {
+          padding: 2rem;
+          margin: 2rem auto;
+        }
+        .methods-grid {
+          gap: 1rem;
+        }
+
+        .step-card,
+        .profile-card,
+        .benefit-card,
+        .method-detail {
+          padding: 2.5rem 2rem;
+        }
+
+        .profile-card__header {
+          height: 220px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .hero__title {
+          font-size: 2.4rem;
+        }
+        .hero__subtitle {
+          font-size: 1.1rem;
+        }
+
+        .step-card,
+        .profile-card,
+        .benefit-card,
+        .method-detail {
+          padding: 2rem 1.5rem;
+        }
+
+        .profile-card__header {
+          height: 200px;
+        }
+        .profile-card__name {
+          font-size: 1.4rem;
+        }
+
+        .cta__title {
+          font-size: 2.2rem;
+        }
+        .cta__subtitle {
+          font-size: 1.1rem;
+        }
+      }
+
+      /* ===== LOADING ===== */
+      .loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--bg-white);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.3s ease;
+      }
+
+      .loading.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .spinner {
+        width: 60px;
+        height: 60px;
+        border: 4px solid var(--bg-light);
+        border-top-color: var(--primary);
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      .loading__text {
+        margin-top: 1.5rem;
+        color: var(--text-600);
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+
+      /* ===== SECTION HEADER ===== */
+      .section-header {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto 5rem;
+      }
+
+      .section-header__title {
+        margin-bottom: 1.5rem;
+        font-size: 2.8rem;
+      }
+
+      .section-header__subtitle {
+        color: var(--text-600);
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <div class="loading__text">Loading ChatDollar...</div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__content">
+          <a href="/" class="logo">
+            <div class="logo__icon">
+              <i class="fas fa-comment-dollar"></i>
+            </div>
+            <span>ChatDollar</span>
+          </a>
+
+          <nav class="nav" id="nav">
+            <a href="#how-it-works" class="nav__link">How It Works</a>
+            <a href="#profiles" class="nav__link">Browse Profiles</a>
+            <a href="#earning-methods" class="nav__link">Earning Methods</a>
+            <a href="#benefits" class="nav__link">Benefits</a>
+            <a href="#testimonials" class="nav__link">Success Stories</a>
+            <a href="#faq" class="nav__link">FAQ</a>
+            <a
+              href="https://mulastar.com/register.php?ref=Harzel"
+              class="btn btn-primary btn-sm"
+              target="_blank"
+              rel="noopener"
+            >
+              Start Earning
+            </a>
+          </nav>
+
+          <button
+            class="mobile-toggle"
+            id="mobileToggle"
+            aria-label="Toggle menu"
+          >
+            <i class="fas fa-bars mobile-toggle__icon"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Improved Hero Section -->
+    <section class="hero section-xl">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            <span class="hero__title-highlight">Earn $15-$30/Hour</span><br />
+            Chatting Online From Your Phone
+          </h1>
+
+          <p class="hero__subtitle">
+            Turn your conversation skills into income! Chat with interesting
+            people worldwide and get paid through 5 different methods. Start
+            earning today with just your phone.
+          </p>
+
+          <!-- Professional Hero Stats -->
+          <div class="hero__stats">
+            <div class="hero-stat">
+              <span class="hero-stat__number" data-count="15200">0</span>
+              <span class="hero-stat__label">Active Earners</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat__number" data-count="850">0</span>
+              <span class="hero-stat__label">K+ Chats Completed</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat__number" data-count="3.5">0</span>
+              <span class="hero-stat__label">Million Earned</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat__number" data-count="24">0</span>
+              <span class="hero-stat__label">/7 Support</span>
+            </div>
+          </div>
+
+          <!-- Professional Earning Methods -->
+          <div class="hero-methods">
+            <h3 class="hero-methods__title">Ways to Earn Money</h3>
+            <div class="methods-grid">
+              <div class="method-card">
+                <span class="method-icon">🕒</span>
+                <div class="method-name">Per Hour</div>
+                <div class="method-desc">Earn for every hour you chat</div>
+              </div>
+              <div class="method-card">
+                <span class="method-icon">✅</span>
+                <div class="method-name">Per Session</div>
+                <div class="method-desc">Complete sessions for instant pay</div>
+              </div>
+              <div class="method-card">
+                <span class="method-icon">💰</span>
+                <div class="method-name">Tips & Bonuses</div>
+                <div class="method-desc">Extra cash from generous clients</div>
+              </div>
+              <div class="method-card">
+                <span class="method-icon">🎁</span>
+                <div class="method-name">Daily Rewards</div>
+                <div class="method-desc">Stay active, maximize income</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__cta">
+            <div class="flex gap-4 justify-center flex-wrap">
+              <a
+                href="https://mulastar.com/register.php?ref=Harzel"
+                class="btn btn-accent btn-lg"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-rocket"></i> Start Earning Now
+              </a>
+              <a
+                href="https://wa.me/254795283249?text=Hello,%20I%20want%20to%20learn%20more%20about%20ChatDollar."
+                class="btn btn-secondary btn-lg"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-whatsapp"></i> Chat with Support
+              </a>
+            </div>
+            <p class="text-light mt-4 text-sm">
+              Only $10 to join • No credit card required • Instant approval
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title text-4xl">
+            How <span class="gradient-text">ChatDollar</span> Works
+          </h2>
+          <p class="section-header__subtitle">
+            Start earning in just 3 simple steps - perfect for students,
+            stay-at-home parents, and anyone looking for flexible income.
+          </p>
+        </div>
+
+        <div class="steps-container">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3>Create Your Profile</h3>
+              <p>
+                Sign up in 2 minutes with just your email. Activate your
+                account, complete your profile with interests and a friendly
+                photo. No experience or special skills needed.
+              </p>
+              <div class="text-sm text-muted">
+                <i class="fas fa-check-circle text-success"></i> Only $10
+                activation fee
+              </div>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3>Start Chatting</h3>
+              <p>
+                Accept chat requests from foreigners worldwide. Have genuine
+                conversations about hobbies, travel, culture, or life
+                experiences. Work anytime that suits you - day or night.
+              </p>
+              <div class="text-sm text-muted">
+                <i class="fas fa-check-circle text-success"></i> 24/7 active
+                clients
+              </div>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3>Get Paid Instantly</h3>
+              <p>
+                Earn money through multiple methods. Withdraw your earnings
+                instantly to your mobile wallet (M-Pesa, Airtel Money, MTN,
+                etc.) or other payment methods.
+              </p>
+              <div class="text-sm text-muted">
+                <i class="fas fa-check-circle text-success"></i> Weekly
+                payments, instant cashout available
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Improved Profiles Section -->
+    <section class="section profiles-section" id="profiles">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title text-4xl">
+            Meet <span class="gradient-text">People Ready to Chat</span>
+          </h2>
+          <p class="section-header__subtitle">
+            Connect with verified members from around the world looking for
+            friendly conversations.
+          </p>
+        </div>
+
+        <!-- Profiles Filters -->
+        <div class="profiles-filters">
+          <button class="filter-btn active" data-filter="all">
+            <i class="fas fa-globe"></i> All Profiles
+          </button>
+          <button class="filter-btn" data-filter="popular">
+            <i class="fas fa-fire"></i> Most Popular
+          </button>
+          <button class="filter-btn" data-filter="high-paying">
+            <i class="fas fa-crown"></i> High Paying
+          </button>
+          <button class="filter-btn" data-filter="regular">
+            <i class="fas fa-comments"></i> Regular Chatters
+          </button>
+        </div>
+
+        <!-- Enhanced Profiles Grid -->
+        <div class="profiles-grid" id="profilesGrid">
+          <!-- Profiles will be loaded via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Earning Methods Detailed -->
+    <section class="section earning-methods-section" id="earning-methods">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title text-4xl">
+            Multiple <span class="gradient-text">Earning Methods</span>
+          </h2>
+          <p class="section-header__subtitle">
+            Maximize your income with 5 different ways to earn. Choose what
+            works best for you!
+          </p>
+        </div>
+
+        <div class="methods-highlight">
+          <div class="method-detail">
+            <div class="method-detail__icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="method-detail__content">
+              <h3 class="method-detail__title">Chat Per Hour</h3>
+              <p class="method-detail__description">
+                Earn $15-$30 for every hour of conversation. Perfect for longer,
+                meaningful chats. Time is automatically tracked and paid.
+              </p>
+            </div>
+          </div>
+
+          <div class="method-detail">
+            <div class="method-detail__icon">
+              <i class="fas fa-comment"></i>
+            </div>
+            <div class="method-detail__content">
+              <h3 class="method-detail__title">Chat Per Message</h3>
+              <p class="method-detail__description">
+                Get paid for each message you send. Great for quick
+                conversations. Every reply adds to your balance instantly.
+              </p>
+            </div>
+          </div>
+
+          <div class="method-detail">
+            <div class="method-detail__icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="method-detail__content">
+              <h3 class="method-detail__title">Chat Per Session</h3>
+              <p class="method-detail__description">
+                Complete chat sessions and get instant payment. Sessions can
+                range from 15 minutes to several hours.
+              </p>
+            </div>
+          </div>
+
+          <div class="method-detail">
+            <div class="method-detail__icon">
+              <i class="fas fa-gift"></i>
+            </div>
+            <div class="method-detail__content">
+              <h3 class="method-detail__title">Tips & Bonuses</h3>
+              <p class="method-detail__description">
+                Receive extra cash from satisfied clients. Generous clients
+                often tip for great conversations and companionship.
+              </p>
+            </div>
+          </div>
+
+          <div class="method-detail">
+            <div class="method-detail__icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="method-detail__content">
+              <h3 class="method-detail__title">Daily Rewards</h3>
+              <p class="method-detail__description">
+                Earn bonuses for consistent activity. The more active you are,
+                the more rewards you earn. Perfect for regular chatters.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="section" id="benefits">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title text-4xl">
+            Why <span class="gradient-text">ChatDollar</span> is Perfect for You
+          </h2>
+          <p class="section-header__subtitle">
+            Everything you need for successful and profitable chatting, designed
+            with your convenience in mind.
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3 class="benefit-title">Work From Your Phone</h3>
+            <p class="benefit-description">
+              All you need is your smartphone and internet connection. No
+              computer required - chat on the go.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h3 class="benefit-title">Global Clients 24/7</h3>
+            <p class="benefit-description">
+              Foreign clients active around the clock. Someone is always ready
+              to chat, no matter your timezone.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h3 class="benefit-title">Instant Withdrawals</h3>
+            <p class="benefit-description">
+              Get your earnings instantly to mobile wallet. M-Pesa, Airtel
+              Money, MTN Mobile Money, and more supported.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3 class="benefit-title">Complete Training</h3>
+            <p class="benefit-description">
+              Step-by-step guidance and ongoing support. No experience needed -
+              we teach you everything.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h3 class="benefit-title">Simple Conversations</h3>
+            <p class="benefit-description">
+              No special skills required. Just have friendly chats about daily
+              life, hobbies, and interests.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="benefit-title">Safe & Secure</h3>
+            <p class="benefit-description">
+              24/7 platform monitoring, anonymous chat options, and secure
+              payments. Your safety is our priority.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title text-4xl">
+            Real <span class="gradient-text">Success Stories</span>
+          </h2>
+          <p class="section-header__subtitle">
+            Hear from our community members who are earning real money with
+            ChatDollar.
+          </p>
+        </div>
+
+        <div class="testimonial-slider">
+          <div class="testimonial-slide active">
+            <div class="testimonial-slide__content">
+              "ChatDollar has been life-changing! As a university student in
+              Kenya, I was struggling with tuition fees. Now I earn $500-700
+              monthly chatting just 10-15 hours a week. The people I talk with
+              are genuinely interesting, and the flexibility is perfect for my
+              schedule. The instant mobile money withdrawals are a
+              game-changer!"
+            </div>
+            <div class="testimonial-slide__author">
+              <img
+                src="https://images.unsplash.com/photo-1707162740878-087394a935c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8a2VueWElMjBsYWR5fGVufDB8fDB8fHww"
+                alt="Sarah M."
+                class="testimonial-slide__avatar"
+                loading="lazy"
+              />
+              <div class="testimonial-slide__info">
+                <div class="testimonial-slide__name">Sarah M.</div>
+                <div class="testimonial-slide__role">
+                  University Student, Kenya
+                </div>
+                <div class="testimonial-slide__rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
+                  <span class="ml-2">$3,200 earned</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="testimonial-slide__content">
+              "After retiring, I needed supplemental income. ChatDollar lets me
+              earn $1,200/month sharing my life experiences from my phone. I've
+              made friends from 10 different countries and feel valued for my
+              wisdom. The multiple earning methods mean I can choose how I want
+              to work each day!"
+            </div>
+            <div class="testimonial-slide__author">
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+                alt="David K."
+                class="testimonial-slide__avatar"
+                loading="lazy"
+              />
+              <div class="testimonial-slide__info">
+                <div class="testimonial-slide__name">David K.</div>
+                <div class="testimonial-slide__role">
+                  Retired Teacher, Ghana
+                </div>
+                <div class="testimonial-slide__rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
+                  <span class="ml-2">$8,500 earned</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="testimonial-slide__content">
+              "As a stay-at-home mom in Uganda, ChatDollar gives me financial
+              independence. I earn $800/month chatting during nap times and
+              evenings. The per-message earning is perfect for when I only have
+              a few minutes. The platform is so easy to use from my phone, and
+              the support team is amazing!"
+            </div>
+            <div class="testimonial-slide__author">
+              <img
+                src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+                alt="Grace W."
+                class="testimonial-slide__avatar"
+                loading="lazy"
+              />
+              <div class="testimonial-slide__info">
+                <div class="testimonial-slide__name">Grace W.</div>
+                <div class="testimonial-slide__role">
+                  Stay-at-Home Mom, Uganda
+                </div>
+                <div class="testimonial-slide__rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i>
+                  <span class="ml-2">$4,200 earned</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-controls">
+          <button
+            class="slider-arrow"
+            id="prevSlide"
+            aria-label="Previous testimonial"
+          >
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="slider-dots" id="sliderDots">
+            <button
+              class="slider-dot active"
+              aria-label="Go to slide 1"
+            ></button>
+            <button class="slider-dot" aria-label="Go to slide 2"></button>
+            <button class="slider-dot" aria-label="Go to slide 3"></button>
+          </div>
+          <button
+            class="slider-arrow"
+            id="nextSlide"
+            aria-label="Next testimonial"
+          >
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title text-4xl">
+            Frequently Asked <span class="gradient-text">Questions</span>
+          </h2>
+          <p class="section-header__subtitle">
+            Find answers to common questions about ChatDollar.
+          </p>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-item">
+            <div class="faq-item__question">
+              <span>How much can I realistically earn with ChatDollar?</span>
+              <i class="fas fa-plus faq-item__icon"></i>
+            </div>
+            <div class="faq-item__answer">
+              <p>
+                Most chatters earn $15-$30 per hour. With our 5 earning methods,
+                you can maximize your income:
+              </p>
+              <ul
+                style="
+                  list-style: disc;
+                  padding-left: 1.5rem;
+                  margin-top: 0.5rem;
+                "
+              >
+                <li>
+                  <strong>Part-time (10-15 hours/week):</strong> $500-$1,000
+                  monthly
+                </li>
+                <li>
+                  <strong>Full-time (25+ hours/week):</strong> $1,500-$3,000+
+                  monthly
+                </li>
+                <li>
+                  <strong>Top performers:</strong> $4,000+ monthly with tips and
+                  bonuses
+                </li>
+              </ul>
+              <p style="margin-top: 1rem">
+                The more active you are, the more you can earn through multiple
+                income streams.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-item__question">
+              <span>What are the 5 earning methods you offer?</span>
+              <i class="fas fa-plus faq-item__icon"></i>
+            </div>
+            <div class="faq-item__answer">
+              <p>We offer 5 ways to earn money:</p>
+              <ol
+                style="
+                  list-style: decimal;
+                  padding-left: 1.5rem;
+                  margin-top: 0.5rem;
+                "
+              >
+                <li>
+                  <strong>Chat per hour:</strong> $15-$30/hour for conversations
+                </li>
+                <li>
+                  <strong>Chat per message:</strong> Paid for each message you
+                  send
+                </li>
+                <li>
+                  <strong>Chat per session:</strong> Complete sessions for
+                  instant pay
+                </li>
+                <li>
+                  <strong>Tips & bonuses:</strong> Extra cash from generous
+                  clients
+                </li>
+                <li>
+                  <strong>Daily rewards:</strong> Bonuses for consistent
+                  activity
+                </li>
+              </ol>
+              <p style="margin-top: 1rem">
+                You can use one or combine multiple methods to maximize your
+                earnings.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-item__question">
+              <span>Do I need any special skills or experience?</span>
+              <i class="fas fa-plus faq-item__icon"></i>
+            </div>
+            <div class="faq-item__answer">
+              <p>
+                No special skills or experience needed! The only requirements
+                are:
+              </p>
+              <ul
+                style="
+                  list-style: disc;
+                  padding-left: 1.5rem;
+                  margin-top: 0.5rem;
+                "
+              >
+                <li>Basic English communication skills</li>
+                <li>A smartphone with internet access</li>
+                <li>A friendly attitude and willingness to chat</li>
+                <li>Be 18+ years old</li>
+              </ul>
+              <p style="margin-top: 1rem">
+                We provide complete training and ongoing support. You'll learn
+                everything you need to succeed.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-item__question">
+              <span>How and when do I get paid?</span>
+              <i class="fas fa-plus faq-item__icon"></i>
+            </div>
+            <div class="faq-item__answer">
+              <p>We offer flexible payment options designed for convenience:</p>
+              <ul
+                style="
+                  list-style: disc;
+                  padding-left: 1.5rem;
+                  margin-top: 0.5rem;
+                "
+              >
+                <li>
+                  <strong>Weekly payments:</strong> Processed every Friday
+                </li>
+                <li>
+                  <strong>Instant withdrawals:</strong> Available anytime for
+                  mobile wallet
+                </li>
+                <li>
+                  <strong>Minimum withdrawal:</strong> $20 for weekly payments
+                </li>
+                <li>
+                  <strong>Payment methods:</strong> Mobile money (M-Pesa, Airtel
+                  Money, MTN), PayPal, bank transfer
+                </li>
+                <li>
+                  <strong>Processing time:</strong> Most withdrawals within 24
+                  hours, instant for mobile wallet
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-item__question">
+              <span>What do I need to start?</span>
+              <i class="fas fa-plus faq-item__icon"></i>
+            </div>
+            <div class="faq-item__answer">
+              <p>To start earning with ChatDollar, you need:</p>
+              <ul
+                style="
+                  list-style: disc;
+                  padding-left: 1.5rem;
+                  margin-top: 0.5rem;
+                "
+              >
+                <li><strong>A smartphone</strong> (Android or iPhone)</li>
+                <li>
+                  <strong>Internet connection</strong> (mobile data or WiFi)
+                </li>
+                <li>
+                  <strong>$10 activation fee</strong> (one-time, fully
+                  refundable if you complete 10 chats)
+                </li>
+                <li>
+                  <strong>20-30 minutes</strong> to create your profile and
+                  complete training
+                </li>
+              </ul>
+              <p style="margin-top: 1rem">
+                That's it! You can start earning immediately after activation.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-item__question">
+              <span>Is ChatDollar safe and legitimate?</span>
+              <i class="fas fa-plus faq-item__icon"></i>
+            </div>
+            <div class="faq-item__answer">
+              <p>
+                Yes, ChatDollar is 100% legitimate and safe. We prioritize
+                safety with:
+              </p>
+              <ul
+                style="
+                  list-style: disc;
+                  padding-left: 1.5rem;
+                  margin-top: 0.5rem;
+                "
+              >
+                <li>24/7 conversation monitoring</li>
+                <li>Anonymous chat options</li>
+                <li>Block/report features</li>
+                <li>Secure payment processing</li>
+                <li>Verified user profiles</li>
+                <li>Never sharing your personal information</li>
+              </ul>
+              <p style="margin-top: 1rem">
+                We've paid out over $3.5 million to our community members. Your
+                safety and earnings are protected.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="section-lg cta">
+      <div class="container">
+        <div class="cta__content">
+          <h2 class="cta__title text-4xl">Start Your Earning Journey Today</h2>
+          <p class="cta__subtitle">
+            Join thousands of chatters worldwide who are already earning
+            meaningful income with flexible hours from their phones.
+          </p>
+
+          <div class="cta__buttons">
+            <a
+              href="https://mulastar.com/register.php?ref=Harzel"
+              class="btn btn-accent btn-lg"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fas fa-user-plus"></i> Create Account ($10)
+            </a>
+            <a
+              href="https://wa.me/254795283249?text=Hello,%20I%20want%20to%20chat%20with%20lonely%20people."
+              class="btn btn-secondary btn-lg"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-whatsapp"></i> Talk to Support
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <a href="/" class="footer__logo">
+              <i class="fas fa-comment-dollar"></i>
+              <span>ChatDollar</span>
+            </a>
+            <p class="footer__description">
+              Turn your conversation skills into income. Chat with foreigners
+              worldwide and earn flexible income from your phone. Multiple
+              earning methods, instant withdrawals.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="footer__social-link" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="footer__social-link" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://wa.me/254795283249"
+                class="footer__social-link"
+                aria-label="WhatsApp"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="footer__heading">Quick Links</h3>
+            <div class="footer__links">
+              <a href="#how-it-works" class="footer__link"
+                ><i class="fas fa-chevron-right"></i> How It Works</a
+              >
+              <a href="#profiles" class="footer__link"
+                ><i class="fas fa-chevron-right"></i> Browse Profiles</a
+              >
+              <a href="#earning-methods" class="footer__link"
+                ><i class="fas fa-chevron-right"></i> Earning Methods</a
+              >
+              <a href="#benefits" class="footer__link"
+                ><i class="fas fa-chevron-right"></i> Benefits</a
+              >
+              <a href="#testimonials" class="footer__link"
+                ><i class="fas fa-chevron-right"></i> Success Stories</a
+              >
+            </div>
+          </div>
+
+          <div>
+            <h3 class="footer__heading">Resources</h3>
+            <div class="footer__links">
+              <a
+                href="https://mulastar.com/register.php?ref=Harzel"
+                class="footer__link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-chevron-right"></i> Sign Up Now</a
+              >
+              <a href="#" class="footer__link"
+                ><i class="fas fa-chevron-right"></i> Privacy Policy</a
+              >
+              <a href="#" class="footer__link"
+                ><i class="fas fa-chevron-right"></i> Terms of Service</a
+              >
+              <a href="#" class="footer__link"
+                ><i class="fas fa-chevron-right"></i> Safety Guidelines</a
+              >
+              <a
+                href="https://wa.me/254795283249"
+                class="footer__link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-chevron-right"></i> Live Support</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>
+            &copy; 2024 ChatDollar. All rights reserved. | Website by
+            <a href="https://wa.me/254707995729" target="_blank" rel="noopener"
+              >Jeff</a
+            >
+          </p>
+          <p class="mt-2">
+            Earn money through friendly conversations with foreigners from
+            anywhere in the world. Just need your phone!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Enhanced JavaScript -->
+    <script>
+      // Immediately hide loading screen if page is cached
+      if (document.readyState === "complete") {
+        document.getElementById("loading").classList.add("hidden");
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // Loading screen
+        const loadingScreen = document.getElementById("loading");
+        setTimeout(() => {
+          loadingScreen.classList.add("hidden");
+          setTimeout(() => loadingScreen.remove(), 300);
+        }, 800);
+
+        // Header scroll effect
+        const header = document.getElementById("header");
+        let lastScroll = 0;
+
+        window.addEventListener("scroll", () => {
+          const currentScroll = window.pageYOffset;
+
+          if (currentScroll > 50) {
+            header.classList.add("scrolled");
+          } else {
+            header.classList.remove("scrolled");
+          }
+
+          if (currentScroll > lastScroll && currentScroll > 100) {
+            header.style.transform = "translateY(-100%)";
+          } else {
+            header.style.transform = "translateY(0)";
+          }
+
+          lastScroll = currentScroll;
+        });
+
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById("mobileToggle");
+        const nav = document.getElementById("nav");
+        const navIcon = mobileToggle.querySelector("i");
+
+        mobileToggle.addEventListener("click", () => {
+          nav.classList.toggle("active");
+          navIcon.classList.toggle("fa-bars");
+          navIcon.classList.toggle("fa-times");
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll(".nav__link").forEach((link) => {
+          link.addEventListener("click", () => {
+            nav.classList.remove("active");
+            navIcon.classList.remove("fa-times");
+            navIcon.classList.add("fa-bars");
+          });
+        });
+
+        // Animated stats counter
+        const statNumbers = document.querySelectorAll(".hero-stat__number");
+        if (statNumbers.length > 0) {
+          const observer = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                  statNumbers.forEach((stat) => {
+                    const target = parseFloat(stat.getAttribute("data-count"));
+                    const isK = stat.textContent.includes("K");
+                    const isM = stat.textContent.includes("M");
+                    let current = 0;
+                    const increment = target / 60;
+
+                    const timer = setInterval(() => {
+                      current += increment;
+                      if (current >= target) {
+                        let displayValue;
+                        if (isK) {
+                          displayValue = target + "K";
+                        } else if (isM) {
+                          displayValue = target + "M";
+                        } else {
+                          displayValue = Math.round(current).toLocaleString();
+                        }
+                        stat.textContent = displayValue;
+                        clearInterval(timer);
+                      } else {
+                        stat.textContent = Math.round(current).toLocaleString();
+                      }
+                    }, 30);
+                  });
+                  observer.disconnect();
+                }
+              });
+            },
+            { threshold: 0.3 },
+          );
+
+          observer.observe(document.querySelector(".hero__stats"));
+        }
+
+        // Profile Data
+        const profileData = [
+          {
+            id: 1,
+            name: "Emily",
+            age: 65,
+            location: "London, UK",
+            description:
+              "Retired teacher looking for meaningful conversations about books, travel, and life experiences.",
+            detailedDescription:
+              "Hello! I'm Emily, a retired literature teacher from London with 40 years of teaching experience. I love discussing classic novels, sharing travel stories from my adventures across Europe, and hearing about different life experiences. I believe every person has a unique story to tell, and I'm eager to listen and share.",
+            price: 18,
+            tags: [
+              "Friendly",
+              "Patient Listener",
+              "Well-read",
+              "Travel Enthusiast",
+              "Good Conversationalist",
+            ],
+            category: ["popular", "regular"],
+            languages: ["English", "French"],
+            interests: [
+              "Literature",
+              "Travel",
+              "History",
+              "Art",
+              "Gardening",
+              "Classical Music",
+            ],
+            availability: "Weekdays 2 PM - 8 PM GMT",
+            avgChatLength: "45-60 minutes",
+            image:
+              "https://plus.unsplash.com/premium_photo-1679439492693-05a8e642381d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b2xkJTIwbGFkeXxlbnwwfHwwfHx8MA%3D%3D",
+            badge: "Popular",
+          },
+          {
+            id: 2,
+            name: "Robert",
+            age: 58,
+            location: "New York, USA",
+            description:
+              "Business executive seeking cultural exchange and conversations about innovation and global trends.",
+            detailedDescription:
+              "Hello, I'm Robert! After 30+ years in international business, I'm passionate about cultural exchange, innovation, and mentoring. I enjoy conversations about global trends, technology, and personal development. Let's share perspectives and learn from each other's experiences.",
+            price: 22,
+            tags: [
+              "Business Savvy",
+              "Mentor",
+              "Cultural Exchange",
+              "Professional",
+              "Good Listener",
+            ],
+            category: ["high-paying", "regular"],
+            languages: ["English", "Spanish"],
+            interests: [
+              "Business",
+              "Technology",
+              "Global Affairs",
+              "Leadership",
+              "Philosophy",
+              "Wine Tasting",
+            ],
+            availability: "Weekdays 7 PM - 11 PM EST",
+            avgChatLength: "30-45 minutes",
+            image:
+              "https://plus.unsplash.com/premium_photo-1672297543351-17987c5c9361?q=80&w=385&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            badge: "Premium",
+          },
+          {
+            id: 3,
+            name: "Linda",
+            age: 68,
+            location: "Toronto, Canada",
+            description:
+              "Looking for companionship and conversations about family, cooking, and daily life adventures.",
+            detailedDescription:
+              "Hi there! I'm Linda, a retired nurse from Toronto who loves meeting new people. I enjoy sharing stories about my family, exchanging recipes, and talking about life's simple pleasures. I'm a great listener and love hearing about different cultures and experiences.",
+            price: 25,
+            tags: [
+              "Companionship",
+              "Patient",
+              "Good Conversationalist",
+              "Empathetic",
+              "Family-oriented",
+            ],
+            category: ["popular", "high-paying"],
+            languages: ["English"],
+            interests: [
+              "Family",
+              "Cooking",
+              "Health & Wellness",
+              "Gardening",
+              "Crafts",
+              "Documentaries",
+            ],
+            availability: "Everyday 10 AM - 6 PM EST",
+            avgChatLength: "60-75 minutes",
+            image:
+              "https://images.unsplash.com/photo-1615538786254-ad8b50de17dc?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            badge: "Top Earner",
+          },
+          {
+            id: 4,
+            name: "David",
+            age: 62,
+            location: "Sydney, Australia",
+            description:
+              "Retired engineer interested in technology discussions, travel stories, and mentoring conversations.",
+            detailedDescription:
+              "G'day! I'm David, a retired engineer from Sydney with a passion for technology and travel. I've worked on projects across Asia and Europe and love sharing stories from my travels. I also enjoy mentoring young professionals and discussing emerging technologies.",
+            price: 20,
+            tags: [
+              "Tech Savvy",
+              "Mentor",
+              "World Traveler",
+              "Problem Solver",
+              "Detail-oriented",
+            ],
+            category: ["regular"],
+            languages: ["English", "German"],
+            interests: [
+              "Engineering",
+              "Technology",
+              "Travel",
+              "Photography",
+              "Outdoor Activities",
+              "Science",
+            ],
+            availability: "Weekends 9 AM - 9 PM AEST",
+            avgChatLength: "40-55 minutes",
+            image:
+              "https://images.unsplash.com/photo-1535643302794-19c3804b874b?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            badge: "Regular",
+          },
+          {
+            id: 5,
+            name: "Sophia",
+            age: 72,
+            location: "Paris, France",
+            description:
+              "Art enthusiast seeking conversations about culture, history, and shared appreciation for the arts.",
+            detailedDescription:
+              "Bonjour! I'm Sophia, an art historian from Paris. I've spent my life studying and appreciating art, and I love sharing this passion with others. Whether discussing Renaissance masters or contemporary artists, I enjoy meaningful conversations about culture, history, and beauty.",
+            price: 30,
+            tags: [
+              "Art Lover",
+              "Cultural",
+              "Intellectual",
+              "Well-traveled",
+              "Sophisticated",
+            ],
+            category: ["high-paying", "new"],
+            languages: ["French", "English", "Italian"],
+            interests: [
+              "Art History",
+              "Museums",
+              "Literature",
+              "Classical Music",
+              "Fine Dining",
+              "Architecture",
+            ],
+            availability: "Tuesday-Saturday 3 PM - 9 PM CET",
+            avgChatLength: "50-70 minutes",
+            image:
+              "https://images.unsplash.com/photo-1758691737587-7630b4d31d16?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            badge: "New",
+          },
+          {
+            id: 6,
+            name: "Michael",
+            age: 59,
+            location: "Berlin, Germany",
+            description:
+              "Entrepreneur looking for business insights and conversations about success, challenges, and growth.",
+            detailedDescription:
+              "Hallo! I'm Michael, a serial entrepreneur from Berlin who has started and sold several successful businesses. I enjoy discussing entrepreneurship, innovation, and personal growth. I'm particularly interested in mentoring aspiring entrepreneurs and sharing practical business insights.",
+            price: 28,
+            tags: [
+              "Entrepreneur",
+              "Business",
+              "Success Mindset",
+              "Motivational",
+              "Strategic Thinker",
+            ],
+            category: ["high-paying", "popular"],
+            languages: ["German", "English"],
+            interests: [
+              "Entrepreneurship",
+              "Startups",
+              "Investing",
+              "Self-development",
+              "Golf",
+              "Reading",
+            ],
+            availability: "Monday-Friday 6 PM - 10 PM CET",
+            avgChatLength: "35-50 minutes",
+            image:
+              "https://plus.unsplash.com/premium_photo-1679769911227-429b4e1b184b?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            badge: "Premium",
+          },
+          {
+            id: 7,
+            name: "Grace",
+            age: 45,
+            location: "Tokyo, Japan",
+            description:
+              "Language teacher interested in cultural exchange and conversations about daily life in different countries.",
+            detailedDescription:
+              "Konnichiwa! I'm Grace, an English teacher living in Tokyo. I love learning about different cultures and sharing stories about life in Japan. Whether discussing food, traditions, or daily life, I enjoy meaningful conversations that bridge cultural gaps.",
+            price: 24,
+            tags: [
+              "Cultural Exchange",
+              "Language Teacher",
+              "Patient",
+              "Curious",
+              "Adaptable",
+            ],
+            category: ["new", "regular"],
+            languages: ["Japanese", "English", "Korean"],
+            interests: [
+              "Language Learning",
+              "Japanese Culture",
+              "Anime",
+              "Tea Ceremony",
+              "Hiking",
+              "Photography",
+            ],
+            availability: "Evenings & Weekends JST",
+            avgChatLength: "50-65 minutes",
+            image:
+              "https://plus.unsplash.com/premium_photo-1679439492690-4d87ae34f214?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            badge: "New",
+          },
+          {
+            id: 8,
+            name: "James",
+            age: 55,
+            location: "Cape Town, South Africa",
+            description:
+              "Wildlife photographer seeking conversations about nature, conservation, and adventure stories.",
+            detailedDescription:
+              "Hello! I'm James, a wildlife photographer based in Cape Town. I've spent years capturing Africa's incredible wildlife and landscapes. I enjoy sharing stories from the bush, discussing conservation efforts, and hearing about others' connections with nature.",
+            price: 26,
+            tags: [
+              "Photographer",
+              "Nature Lover",
+              "Adventurous",
+              "Storyteller",
+              "Passionate",
+            ],
+            category: ["high-paying", "popular"],
+            languages: ["English", "Afrikaans"],
+            interests: [
+              "Wildlife",
+              "Photography",
+              "Conservation",
+              "Safari",
+              "Birdwatching",
+              "Outdoor Adventure",
+            ],
+            availability: "Flexible hours, SAST",
+            avgChatLength: "55-70 minutes",
+            image:
+              "https://images.unsplash.com/photo-1542105907-bbbb542a5f79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG9sZCUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D",
+            badge: "Popular",
+          },
+        ];
+
+        // Profile filter functionality
+        function filterProfiles(category) {
+          const profilesGrid = document.getElementById("profilesGrid");
+          profilesGrid.innerHTML = "";
+
+          let filteredProfiles = profileData;
+
+          if (category !== "all") {
+            filteredProfiles = profileData.filter((profile) =>
+              profile.category.includes(category),
+            );
+          }
+
+          if (filteredProfiles.length === 0) {
+            profilesGrid.innerHTML = `
+                        <div class="no-profiles">
+                            <i class="fas fa-users"></i>
+                            <h3>No profiles found</h3>
+                            <p>Try selecting a different category or check back later for new members.</p>
+                        </div>
+                    `;
+            return;
+          }
+
+          renderProfiles(filteredProfiles);
+        }
+
+        // Render profiles function
+        function renderProfiles(profiles = profileData) {
+          const profilesGrid = document.getElementById("profilesGrid");
+          profilesGrid.innerHTML = "";
+
+          profiles.forEach((profile) => {
+            const profileCard = document.createElement("div");
+            profileCard.className = "profile-card";
+            profileCard.dataset.category = profile.category.join(" ");
+
+            const badgeIcon =
+              profile.badge === "New"
+                ? "fa-star"
+                : profile.badge === "Premium"
+                  ? "fa-crown"
+                  : profile.badge === "Top Earner"
+                    ? "fa-trophy"
+                    : "fa-fire";
+
+            profileCard.innerHTML = `
+                        <div class="profile-card__header">
+                            <img src="${profile.image}" alt="${profile.name}" class="profile-card__image" loading="lazy">
+                            <div class="profile-card__badge">
+                                <i class="fas ${badgeIcon}"></i>
+                                ${profile.badge}
+                            </div>
+                            <div class="profile-card__overlay">
+                                <h3 class="profile-card__name">${profile.name}</h3>
+                                <div class="profile-card__info">
+                                    <span class="profile-card__age">
+                                        <i class="fas fa-birthday-cake"></i> ${profile.age}
+                                    </span>
+                                    <span class="profile-card__location">
+                                        <i class="fas fa-map-marker-alt"></i> ${profile.location}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-card__content">
+                            <p class="profile-card__description">${profile.description}</p>
+                            
+                            <div class="profile-card__tags">
+                                ${profile.tags
+                                  .slice(0, 3)
+                                  .map(
+                                    (tag) =>
+                                      `<span class="profile-card__tag">${tag}</span>`,
+                                  )
+                                  .join("")}
+                                ${
+                                  profile.tags.length > 3
+                                    ? `<span class="profile-card__tag">+${profile.tags.length - 3}</span>`
+                                    : ""
+                                }
+                            </div>
+                            
+                            <div class="profile-card__footer">
+                                <div class="profile-card__price">
+                                    $${profile.price}<span>per hour</span>
+                                </div>
+                                <button class="profile-card__cta view-profile-btn" data-id="${profile.id}">
+                                    <i class="fas fa-comment"></i> Chat Now
+                                </button>
+                            </div>
+                        </div>
+                    `;
+
+            profilesGrid.appendChild(profileCard);
+          });
+
+          // Add event listeners to profile buttons
+          document.querySelectorAll(".view-profile-btn").forEach((btn) => {
+            btn.addEventListener("click", function () {
+              const profileId = parseInt(this.dataset.id);
+              const profile = profileData.find((p) => p.id === profileId);
+              if (profile) {
+                showProfileModal(profile);
+              }
+            });
+          });
+        }
+
+        // Initialize profiles
+        renderProfiles();
+
+        // Add filter button event listeners
+        document.querySelectorAll(".filter-btn").forEach((btn) => {
+          btn.addEventListener("click", function () {
+            // Remove active class from all buttons
+            document.querySelectorAll(".filter-btn").forEach((b) => {
+              b.classList.remove("active");
+            });
+
+            // Add active class to clicked button
+            this.classList.add("active");
+
+            // Filter profiles
+            const filter = this.dataset.filter;
+            filterProfiles(filter);
+          });
+        });
+
+        // Profile modal function
+        function showProfileModal(profile) {
+          const modal = document.createElement("div");
+          modal.className = "modal";
+
+          modal.innerHTML = `
+                    <div class="modal-content">
+                        <button class="modal-close">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        
+                        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2.5rem; margin-bottom: 2rem; align-items: start;">
+                            <div style="text-align: center;">
+                                <img src="${profile.image}" alt="${profile.name}" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin-bottom: 1.5rem; border: 5px solid var(--primary-light); box-shadow: var(--shadow-lg);">
+                                <div style="background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 1rem 2rem; border-radius: var(--radius-full); display: inline-block; font-weight: 700; font-size: 1.4rem; box-shadow: var(--shadow-md);">
+                                    $${profile.price}/hour
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h3 style="font-size: 2rem; margin-bottom: 0.5rem; color: var(--text-900);">${profile.name}, ${profile.age}</h3>
+                                <div style="color: var(--text-600); margin-bottom: 1.5rem; font-size: 1.1rem;">
+                                    <i class="fas fa-map-marker-alt"></i> ${profile.location}
+                                </div>
+                                <div style="background: var(--bg-light); padding: 1.8rem; border-radius: var(--radius-lg); margin-bottom: 1.8rem; border-left: 4px solid var(--primary);">
+                                    <p style="color: var(--text-700); line-height: 1.7; margin: 0; font-size: 1.05rem;">${profile.detailedDescription}</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Profile Tags Section -->
+                        <div style="margin: 1.5rem 0;">
+                            <h4 style="font-size: 1rem; color: var(--text-500); text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 1rem;">Profile Tags</h4>
+                            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.75rem;">
+                                ${profile.tags
+                                  .map(
+                                    (tag) =>
+                                      `<span style="background: var(--primary-light); color: var(--primary); padding: 0.6rem 1.2rem; border-radius: var(--radius-full); font-size: 0.9rem; font-weight: 600; border: 2px solid var(--primary); transition: var(--transition);">${tag}</span>`,
+                                  )
+                                  .join("")}
+                            </div>
+                        </div>
+                        
+                        <!-- Profile Details Grid -->
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+                            <div>
+                                <h4 style="font-size: 0.9rem; color: var(--text-500); text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 0.75rem;">Languages</h4>
+                                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                    ${profile.languages
+                                      .map(
+                                        (lang) =>
+                                          `<span style="background: var(--bg-light); color: var(--text-700); padding: 0.5rem 1rem; border-radius: var(--radius-full); font-size: 0.9rem; font-weight: 500;">${lang}</span>`,
+                                      )
+                                      .join("")}
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h4 style="font-size: 0.9rem; color: var(--text-500); text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 0.75rem;">Availability</h4>
+                                <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-700); font-size: 1rem;">
+                                    <i class="fas fa-clock" style="color: var(--primary);"></i>
+                                    <span>${profile.availability}</span>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h4 style="font-size: 0.9rem; color: var(--text-500); text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 0.75rem;">Average Chat</h4>
+                                <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-700); font-size: 1rem;">
+                                    <i class="fas fa-comments" style="color: var(--primary);"></i>
+                                    <span>${profile.avgChatLength}</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Interests -->
+                        <div style="margin: 2rem 0;">
+                            <h4 style="font-size: 0.9rem; color: var(--text-500); text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 1rem;">Interests</h4>
+                            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.75rem;">
+                                ${profile.interests
+                                  .map(
+                                    (interest) =>
+                                      `<span style="background: linear-gradient(135deg, var(--primary-light), #e3f2fd); color: var(--text-700); padding: 0.75rem 1.25rem; border-radius: var(--radius); font-size: 0.9rem; border: 1px solid rgba(2, 159, 88, 0.1);">${interest}</span>`,
+                                  )
+                                  .join("")}
+                            </div>
+                        </div>
+                        
+                        <!-- Call to Action -->
+                        <div style="text-align: center; padding-top: 2.5rem; border-top: 1px solid var(--border-light);">
+                            <div style="margin-bottom: 2rem; color: var(--text-600); font-size: 1.05rem;">
+                                <i class="fas fa-info-circle" style="color: var(--primary); font-size: 1.2rem;"></i> 
+                                <span style="margin-left: 0.5rem;">To start chatting with ${profile.name}, please create your account first</span>
+                            </div>
+                            <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+                                <a href="https://mulastar.com/register.php?ref=Harzel" 
+                                   class="btn btn-primary btn-lg" 
+                                   target="_blank" 
+                                   rel="noopener">
+                                    <i class="fas fa-user-plus"></i> Create Account & Chat
+                                </a>
+                                <button class="btn btn-outline btn-lg" onclick="window.open('https://wa.me/254795283249?text=I%27m%20interested%20in%20chatting%20with%20${profile.name}%20on%20ChatDollar', '_blank')">
+                                    <i class="fas fa-question-circle"></i> Ask Questions
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+          document.body.appendChild(modal);
+
+          modal.querySelector(".modal-close").addEventListener("click", () => {
+            modal.remove();
+          });
+
+          modal.addEventListener("click", (e) => {
+            if (e.target === modal) {
+              modal.remove();
+            }
+          });
+
+          modal
+            .querySelector(".modal-content")
+            .addEventListener("click", (e) => {
+              e.stopPropagation();
+            });
+        }
+
+        // Testimonial slider
+        let currentSlide = 0;
+        const slides = document.querySelectorAll(".testimonial-slide");
+        const dots = document.querySelectorAll(".slider-dot");
+        const prevBtn = document.getElementById("prevSlide");
+        const nextBtn = document.getElementById("nextSlide");
+
+        function showSlide(index) {
+          slides.forEach((slide) => slide.classList.remove("active"));
+          dots.forEach((dot) => dot.classList.remove("active"));
+
+          currentSlide = (index + slides.length) % slides.length;
+          slides[currentSlide].classList.add("active");
+          dots[currentSlide].classList.add("active");
+        }
+
+        prevBtn.addEventListener("click", () => showSlide(currentSlide - 1));
+        nextBtn.addEventListener("click", () => showSlide(currentSlide + 1));
+
+        dots.forEach((dot, index) => {
+          dot.addEventListener("click", () => showSlide(index));
+        });
+
+        // Auto-advance slides
+        let slideInterval = setInterval(
+          () => showSlide(currentSlide + 1),
+          8000,
+        );
+
+        // Pause auto-advance on hover
+        document
+          .querySelector(".testimonial-slider")
+          .addEventListener("mouseenter", () => {
+            clearInterval(slideInterval);
+          });
+
+        document
+          .querySelector(".testimonial-slider")
+          .addEventListener("mouseleave", () => {
+            slideInterval = setInterval(
+              () => showSlide(currentSlide + 1),
+              8000,
+            );
+          });
+
+        // FAQ accordion
+        document.querySelectorAll(".faq-item__question").forEach((question) => {
+          question.addEventListener("click", () => {
+            const faqItem = question.parentElement;
+            const icon = question.querySelector("i");
+
+            // Close other items
+            document.querySelectorAll(".faq-item").forEach((item) => {
+              if (item !== faqItem) {
+                item.classList.remove("active");
+                item.querySelector("i").classList.remove("fa-minus");
+                item.querySelector("i").classList.add("fa-plus");
+              }
+            });
+
+            // Toggle current item
+            faqItem.classList.toggle("active");
+            if (faqItem.classList.contains("active")) {
+              icon.classList.remove("fa-plus");
+              icon.classList.add("fa-minus");
+            } else {
+              icon.classList.remove("fa-minus");
+              icon.classList.add("fa-plus");
+            }
+          });
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            const href = this.getAttribute("href");
+            if (href === "#" || href === "#0") return;
+
+            const target = document.querySelector(href);
+            if (target) {
+              e.preventDefault();
+
+              // Close mobile menu if open
+              if (nav.classList.contains("active")) {
+                nav.classList.remove("active");
+                navIcon.classList.remove("fa-times");
+                navIcon.classList.add("fa-bars");
+              }
+
+              window.scrollTo({
+                top: target.offsetTop - 80,
+                behavior: "smooth",
+              });
+            }
+          });
+        });
+
+        // Add scroll progress indicator
+        const progressBar = document.createElement("div");
+        progressBar.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 3px;
+                background: linear-gradient(90deg, var(--primary), var(--secondary));
+                width: 0%;
+                z-index: 1001;
+                transition: width 0.1s ease;
+            `;
+        document.body.appendChild(progressBar);
+
+        window.addEventListener("scroll", () => {
+          const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+          const height =
+            document.documentElement.scrollHeight -
+            document.documentElement.clientHeight;
+          const scrolled = (winScroll / height) * 100;
+          progressBar.style.width = scrolled + "%";
+        });
+
+        // Add keyboard shortcuts
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") {
+            const modal = document.querySelector(".modal");
+            if (modal) {
+              modal.remove();
+            }
+          }
+        });
+
+        // Add animation to earning methods cards
+        const methodCards = document.querySelectorAll(".method-card");
+        methodCards.forEach((card, index) => {
+          card.style.animationDelay = `${index * 0.1}s`;
+          card.style.animation = "fadeUp 0.5s ease forwards";
+          card.style.opacity = "0";
+        });
+
+        // Animate method cards when they come into view
+        const methodCardsObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                methodCards.forEach((card, index) => {
+                  setTimeout(() => {
+                    card.style.animation = "fadeUp 0.5s ease forwards";
+                    card.style.opacity = "1";
+                  }, index * 100);
+                });
+                methodCardsObserver.disconnect();
+              }
+            });
+          },
+          { threshold: 0.1 },
+        );
+
+        methodCardsObserver.observe(document.querySelector(".hero-methods"));
+      });
+
+      // Performance optimization
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js").catch((err) => {
+            console.log("ServiceWorker registration failed: ", err);
+          });
+        });
+      }
+    </script>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "ChatDollar - Get Paid to Chat Online",
+        "description": "Earn money by chatting with foreigners online. Flexible work from phone opportunities with 5 earning methods.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "ChatDollar",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://chatdollar.com/logo.png"
+          }
+        },
+        "mainEntity": {
+          "@type": "Service",
+          "serviceType": "Online Chatting Jobs",
+          "provider": {
+            "@type": "Organization",
+            "name": "ChatDollar"
+          },
+          "description": "Get paid $15-$30 per hour to chat with people online from anywhere using just your phone.",
+          "offers": {
+            "@type": "Offer",
+            "price": "10",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
