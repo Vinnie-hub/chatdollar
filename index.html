@@ -9,7 +9,7 @@
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#0f766e" />
 
-  <!-- Canonical - CRITICAL FIX -->
+  <!-- Canonical -->
   <link rel="canonical" href="https://chatdollar.site" />
 
   <!-- Favicon -->
@@ -37,8 +37,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Manifest -->
+  <link rel="manifest" href="/manifest.json">
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CXDQEWGC23"></script>
@@ -50,23 +51,29 @@
   </script>
   
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "ChatDollar",
-  "description": "Earn money by chatting online with foreigners. Multiple payment methods: per hour, per message, and per session.",
-  "applicationCategory": "FinanceApplication",
-  "operatingSystem": "All",
-  "url": "https://chatdollar.site",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "ChatDollar",
+    "description": "Earn money by chatting online with foreigners. Multiple payment methods: per hour, per message, and per session.",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "All",
+    "url": "https://chatdollar.site",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
   }
-}
-</script>
+  </script>
 </head>
 <body>
+  <!-- Install Button -->
+  <button id="installBtn">
+    <img src="https://res.cloudinary.com/dovhxt8ye/image/upload/v1786383436/chatdollar_logo_mypma7.png" alt="ChatDollar" />
+    📲 Install App
+  </button>
+
   <!-- ═══════════════ HEADER ═══════════════ -->
   <header class="header">
     <div class="header-inner">
@@ -96,7 +103,7 @@
   <section class="hero">
     <div class="hero-badge">
       <span class="hero-badge-dot"></span>
-      Trusted by <strong id="heroTotalUsers">80,432</strong>+ Africans
+      Trusted by <strong id="heroTotalUsers">80,000</strong>+ Africans
     </div>
     <h1>Get Paid to Chat with <span class="hl">Lonely Foreigners</span></h1>
     <p class="hero-sub">Join thousands earning daily. Withdraw instantly to M-Pesa, MoMo, bank, or crypto.</p>
@@ -174,7 +181,7 @@
   <section class="stats-section">
     <div class="stats-inner">
       <div class="stat-card">
-        <div class="stat-val" id="statUsers">80,432</div>
+        <div class="stat-val" id="statUsers">80,000</div>
         <div class="stat-label">Active Users</div>
       </div>
       <div class="stat-card">

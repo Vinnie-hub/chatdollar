@@ -59,6 +59,40 @@
       -webkit-font-smoothing: antialiased;
     }
 
+    /* Install button styling */
+    #installBtn {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 9999;
+      background: linear-gradient(135deg, var(--teal-700), var(--teal-500));
+      color: white;
+      border: none;
+      padding: 12px 22px;
+      border-radius: 50px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      display: none;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 8px 24px rgba(14, 124, 123, 0.4);
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+    #installBtn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 32px rgba(14, 124, 123, 0.5);
+    }
+    #installBtn img {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      object-fit: contain;
+      background: white;
+      padding: 2px;
+    }
+
     /* ═══════════════ HEADER / NAV ═══════════════ */
     .header {
       position: sticky;
@@ -753,4 +787,5 @@
       .stat-label { font-size: 10px; }
       .toast { max-width: 200px; }
       .toast-wrap { left: 6px; bottom: 36px; }
+      #installBtn { right: 12px; bottom: 38px; padding: 10px 18px; font-size: 12px; }
     }
