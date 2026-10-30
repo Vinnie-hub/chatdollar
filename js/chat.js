@@ -64,6 +64,17 @@
       { name: "Catherine D.", age: 57, country: "🇬🇧 UK", img: "https://randomuser.me/api/portraits/women/57.jpg", status: "looking", statusText: "Looking to talk 💬" }
     ];
 
+    // Recent M-Pesa withdrawals (placeholder data - replace with MulaEarn feed)
+    const tickerItems = [
+      { name: "Kelvin O.", amt: "$38", method: "M-Pesa" },
+      { name: "Amina H.", amt: "$52", method: "M-Pesa" },
+      { name: "Brian M.", amt: "$27", method: "M-Pesa" },
+      { name: "Faith W.", amt: "$64", method: "M-Pesa" },
+      { name: "Dennis K.", amt: "$41", method: "M-Pesa" },
+      { name: "Mercy A.", amt: "$35", method: "M-Pesa" }
+    ];
+    const toastData = tickerItems.map(t => [t.name, t.amt, t.method]);
+
     function shuffleArray(arr) {
       const shuffled = [...arr];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -105,19 +116,6 @@
     renderProfiles();
     setInterval(renderProfiles, 7000);
 
-    // Ticker
-    const tickerItems = [
-      { name: "Aisha M.", amt: "$34.50", method: "M-Pesa" },
-      { name: "John K.", amt: "$18.00", method: "Bank" },
-      { name: "Fatima B.", amt: "$62.00", method: "MoMo" },
-      { name: "Emeka O.", amt: "$27.50", method: "PayPal" },
-      { name: "Grace N.", amt: "$45.00", method: "M-Pesa" },
-      { name: "David A.", amt: "$89.00", method: "Bank" },
-      { name: "Amina S.", amt: "$21.00", method: "MoMo" },
-      { name: "Kweku T.", amt: "$53.50", method: "M-Pesa" },
-      { name: "Brian M.", amt: "$71.00", method: "Bank" },
-      { name: "Lydia K.", amt: "$38.00", method: "PayPal" }
-    ];
 
     const tickerTrack = document.getElementById('tickerTrack');
     if (tickerTrack) {
@@ -142,64 +140,7 @@
       });
     });
 
-    // Live stats
-    let heroCount = 12547;
-    let totalPaid = 1284902;
-    let totalUsers = 80432;
-
-    function animateValue(el, value, isCurrency = false) {
-      if (!el) return;
-      el.classList.add('updating');
-      el.textContent = isCurrency ? '$' + value.toLocaleString() : value.toLocaleString();
-      setTimeout(() => el.classList.remove('updating'), 400);
-    }
-
-    function updateStats() {
-      const heroChange = Math.floor(Math.random() * 31) - 10;
-      heroCount = Math.max(12100, heroCount + heroChange);
-
-      const headerCount = document.getElementById('headerOnlineCount');
-      if (headerCount) headerCount.textContent = heroCount.toLocaleString();
-
-      const statOnline = Math.floor(heroCount / 7.5);
-      const statOnlineEl = document.getElementById('statOnline');
-      if (statOnlineEl) statOnlineEl.textContent = statOnline.toLocaleString();
-
-      const paidIncrease = Math.floor(Math.random() * 15) + 3;
-      totalPaid += paidIncrease;
-      animateValue(document.getElementById('statPaid'), totalPaid, true);
-
-      if (Math.random() > 0.6) {
-        totalUsers += Math.floor(Math.random() * 3) + 1;
-        animateValue(document.getElementById('statUsers'), totalUsers);
-        const heroUsers = document.getElementById('heroTotalUsers');
-        if (heroUsers) heroUsers.textContent = totalUsers.toLocaleString();
-      }
-
-      const moreCount = Math.floor(heroCount / 3.5) + Math.floor(Math.random() * 30);
-      const moreBadge = document.getElementById('moreCountBadge');
-      if (moreBadge) moreBadge.textContent = '+' + moreCount.toLocaleString();
-    }
-
-    updateStats();
-    setInterval(updateStats, 3000);
-
-    // Toasts
-    const toastData = [
-      ['Aisha M.', '$34.50', 'M-Pesa'],
-      ['Kelvin O.', '$22.00', 'M-Pesa'],
-      ['Fatima B.', '$62.00', 'MoMo'],
-      ['Emeka O.', '$27.50', 'PayPal'],
-      ['Grace N.', '$45.00', 'M-Pesa'],
-      ['David A.', '$89.00', 'bank'],
-      ['Amina S.', '$21.00', 'MoMo'],
-      ['Kweku T.', '$53.50', 'M-Pesa'],
-      ['Sipho D.', '$118.00', 'bank'],
-      ['Amaka N.', '$37.00', 'PayPal'],
-      ['Brian M.', '$29.50', 'M-Pesa'],
-      ['Lydia K.', '$44.00', 'MoMo']
-    ];
-
+    // Toast notifications
     let toastIdx = 0;
     const toastWrap = document.getElementById('toastWrap');
 

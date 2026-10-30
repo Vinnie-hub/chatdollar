@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>ChatDollar – Hotel Ratings &amp; Reviews</title>
+    <meta
+      name="description"
+      content="ChatDollar is a hotel ratings and reviews platform. Browse hotels, read honest reviews, and share your own. Eligible users can earn a commission per review."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://chatdollar.site/hotels" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://chatdollar.site/hotels" />
+    <meta property="og:site_name" content="ChatDollar Kenya" />
+    <meta property="og:locale" content="en_KE" />
+    <meta property="og:title" content="ChatDollar Kenya – Hotel Ratings &amp; Reviews" />
+    <meta
+      property="og:description"
+      content="Browse hotels, read honest reviews and share your own. Eligible users can earn a commission per review."
+    />
+    <meta property="og:image" content="https://chatdollar.site/assets/chatdollar-hero-1000.webp" />
+    <meta property="og:image:alt" content="ChatDollar Kenya – Hotel Ratings and Reviews" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ChatDollarAfrica" />
+    <meta name="twitter:title" content="ChatDollar Kenya – Hotel Ratings &amp; Reviews" />
+    <meta
+      name="twitter:description"
+      content="Browse hotels, read honest reviews and share your own. Eligible users can earn a commission per review."
+    />
+    <meta name="twitter:image" content="https://chatdollar.site/assets/chatdollar-hero-1000.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preload" as="image" href="/assets/hero-bg.webp" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="icon" type="image/webp" href="/assets/chatdollar-favicon-192.webp" />
+    <link rel="apple-touch-icon" href="/assets/chatdollar-favicon-192.webp" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ChatDollar Kenya",
+        "url": "https://chatdollar.site",
+        "logo": "https://chatdollar.site/assets/chatdollar-logo-160.webp",
+        "description": "ChatDollar is a hotel ratings and reviews platform. Eligible users can earn a commission per review.",
+        "email": "Chatdollar@gmail.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+254725125473",
+          "contactType": "Customer Support",
+          "availableLanguage": ["English", "Swahili"]
+        },
+        "sameAs": ["https://wa.me/254725125473", "https://whatsapp.com/channel/0029VbD0NZf0VycJyk85mq16"]
+      }
+    </script>
+    <script type="application/ld+json">
+      { "@context": "https://schema.org", "@type": "WebSite", "name": "ChatDollar Kenya", "url": "https://chatdollar.site" }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is ChatDollar?",
+            "acceptedAnswer": { "@type": "Answer", "text": "ChatDollar is an affiliate and advertising site for MulaEarn, a platform that pays users to complete hotel rating and review tasks. ChatDollar helps you understand earning opportunities on MulaEarn, register with ease, and get the guidance you need to start earning." }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I earn from reviews?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Join ChatDollar and explore online opportunities to review hotels, share your feedback, and earn money for successfully completed tasks. Withdraw your earnings to M-Pesa at anytime." }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I include in a hotel review?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Share honest, well-informed feedback based on the information available. You may be asked to review hotel facilities, accommodation features, cleanliness standards, services, or existing guest feedback." }
+          }
+        ]
+      }
+    </script>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#12337a" />
+    <link rel="stylesheet" href="/css/hotels.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <a
+      href="https://wa.me/254725125473?text=Hi%20ChatDollar%20Support%2C%20I%20need%20help%20getting%20started"
+      target="_blank"
+      rel="noopener"
+      class="whatsapp-float"
+      aria-label="Chat with ChatDollar support on WhatsApp"
+    >
+      <i aria-hidden="true" class="fab fa-whatsapp"></i>
+      <span class="whatsapp-tooltip">Need help? Chat with us</span>
+    </a>
+
+    <button id="installBtn" type="button" aria-label="Install ChatDollar" hidden>
+      <img src="/assets/chatdollar-logo-160.webp" alt="" width="22" height="22" />
+      Install App
+    </button>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-inner">
+        <a href="/" class="nav-logo">
+          <img src="/assets/chatdollar-logo-160.webp" alt="ChatDollar" width="44" height="44" />
+          <div>
+            <div class="header-logo-name">Chat<em>Dollar</em></div>
+            <div class="header-logo-tagline">Hotel ratings &amp; reviews</div>
+          </div>
+        </a>
+        <div class="header-right">
+          <a href="/" class="switch-link"><i aria-hidden="true" class="fas fa-arrow-left-long"></i> <span>All tasks</span></a>
+          <a href="https://mulaearn.com/register.php?ref=harzel" data-register target="_blank" rel="sponsored noopener" class="btn btn-primary">
+            <i aria-hidden="true" class="fas fa-user-plus"></i> <span>Join</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <span class="badge"><i aria-hidden="true" class="fas fa-star"></i> Honest hotel ratings &amp; reviews</span>
+          <h1>Find your stay. <br /><span class="gradient-text">Share your review.</span></h1>
+          <p>
+            Discover hotels, rate and write reviews, and earn KSh 200–800 per approved review. Turn your opinions into an earning opportunity!
+          </p>
+          <div class="hero-stats">
+            <span class="stat stat-pay"><i aria-hidden="true" class="fas fa-coins"></i> KSh 200–800 per review</span>
+            <span class="stat"><i aria-hidden="true" class="fas fa-scale-balanced"></i> No daily commutes</span>
+            <span class="stat"><i aria-hidden="true" class="fas fa-mobile-screen"></i> Works on your phone</span>
+          </div>
+          <div class="hero-buttons">
+            <a href="#hotels" class="btn btn-success btn-lg"><i aria-hidden="true" class="fas fa-hotel"></i> Browse hotels</a>
+            <a href="https://mulaearn.com/register.php?ref=harzel" data-register target="_blank" rel="sponsored noopener" class="btn btn-primary btn-lg">
+              <i aria-hidden="true" class="fas fa-user-plus"></i> Join Now
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <img src="/assets/chatdollar-hero-1000.webp" alt="ChatDollar: real hotel reviews, better stays, better pay" width="1000" height="563" fetchpriority="high" />
+          <div class="hero-card-body">
+            <a href="#hotels" class="btn btn-success" style="width: 100%"><i aria-hidden="true" class="fas fa-magnifying-glass"></i> Explore hotels</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOTELS -->
+    <section class="container section" id="hotels">
+      <h2 class="section-heading">Hotels to <span class="accent">rate &amp; review</span></h2>
+      <div class="section-sub">Pick a hotel, rate and write reviews</div>
+
+      <div class="hotel-grid" id="hotelGrid" aria-live="off"></div>
+      <div class="dots" id="dots" role="group" aria-label="Choose hotel selection"></div>
+    </section>
+
+    <!-- WHAT TO RATE -->
+    <section class="rate-section">
+      <div class="container">
+        <h2 class="section-heading">What you <span class="accent">rate</span></h2>
+        <div class="section-sub">A good review starts with what you know. Share a thoughtful, honest review based on the information available</div>
+        <div class="rate-grid">
+          <div class="rate-card"><i aria-hidden="true" class="fas fa-broom"></i><span>Cleanliness</span></div>
+          <div class="rate-card"><i aria-hidden="true" class="fas fa-bed"></i><span>Comfort</span></div>
+          <div class="rate-card"><i aria-hidden="true" class="fas fa-concierge-bell"></i><span>Service</span></div>
+          <div class="rate-card"><i aria-hidden="true" class="fas fa-utensils"></i><span>Food</span></div>
+          <div class="rate-card"><i aria-hidden="true" class="fas fa-location-dot"></i><span>Location</span></div>
+          <div class="rate-card"><i aria-hidden="true" class="fas fa-tags"></i><span>Value</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="container section" id="how-it-works">
+      <h2 class="section-heading">How <span class="accent">ChatDollar</span> works</h2>
+      <p class="section-sub" style="max-width: 600px; margin: 0 auto 30px">
+        Three simple steps to get started
+      </p>
+      <div class="steps-container">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Create Your Account</h3>
+            <p>Register your account through the register button and activate your account.</p>
+            <div class="text-sm text-muted"><i aria-hidden="true" class="fas fa-check-circle text-success"></i> $4 activation fee, refundable within 7 days if it doesn’t work as expected</div>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Browse hotels</h3>
+            <p>Look through hotels by type and see what each one offers.</p>
+            <div class="text-sm text-muted"><i aria-hidden="true" class="fas fa-check-circle text-success"></i> Pay is shown on every listing</div>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Review &amp; earn</h3>
+            <p>Complete your reviews and earn KSh 200 to 800 per review</p>
+            <div class="text-sm text-muted"><i aria-hidden="true" class="fas fa-check-circle text-success"></i> Withdraw to M-Pesa</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div class="faq-inner">
+          <h2 class="faq-heading">Frequently asked questions</h2>
+          <div class="faq-sub">Straight answers about reviewing hotels on ChatDollar.</div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">What is ChatDollar?<span class="faq-icon" aria-hidden="true">+</span></button>
+            <div class="faq-a" id="faq-a1" role="region" aria-labelledby="faq-q1">ChatDollar helps you understand earning opportunities on MulaEarn, register with ease, and get the guidance you need to start earning.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">How do I earn from reviews?<span class="faq-icon" aria-hidden="true">+</span></button>
+            <div class="faq-a" id="faq-a2" role="region" aria-labelledby="faq-q2">Join ChatDollar and explore online opportunities to review hotels, share your feedback, and earn money for successfully completed tasks. Withdraw your earnings to M-Pesa at anytime.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">What should I include in a hotel review?<span class="faq-icon" aria-hidden="true">+</span></button>
+            <div class="faq-a" id="faq-a3" role="region" aria-labelledby="faq-q3">Share honest, well-informed feedback based on the information available. You may be asked to review hotel facilities, accommodation features, cleanliness standards, services, or existing guest feedback.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">What should I do if I have a problem with my account or payment?<span class="faq-icon" aria-hidden="true">+</span></button>
+            <div class="faq-a" id="faq-a4" role="region" aria-labelledby="faq-q4">Contact ChatDollar through its official support channel and provide the relevant task or transaction reference.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">Do I have to give positive reviews?<span class="faq-icon" aria-hidden="true">+</span></button>
+            <div class="faq-a" id="faq-a5" role="region" aria-labelledby="faq-q5">No. Your review should be honest, fair, and based on the available hotel information. Provide genuine feedback and never invent personal experiences or misleading ratings.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a6" id="faq-q6">Can I use my phone?<span class="faq-icon" aria-hidden="true">+</span></button>
+            <div class="faq-a" id="faq-a6" role="region" aria-labelledby="faq-q6">Yes. ChatDollar works on any modern smartphone browser, and you can install it to your home screen.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="faq-a7" id="faq-q7">Do I have to pay to start?<span class="faq-icon" aria-hidden="true">+</span></button>
+            <div class="faq-a" id="faq-a7" role="region" aria-labelledby="faq-q7">Yes. MulaEarn charges a one-time $4 activation fee. It is refundable within 7 days if the platform doesn’t work as expected. Pay is typically KSh 200–800 per review in Kenya. Payouts go to M-Pesa.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OTHER TASK -->
+    <section class="container section cross-wrap">
+      <a href="/chat" class="cross-link">
+        <span class="cross-icon"><i aria-hidden="true" class="fas fa-comments"></i></span>
+        <span class="cross-text"><strong>Prefer chatting?</strong> Get paid to chat online with foreigners.</span>
+        <span class="cross-go">Chat &amp; earn <i aria-hidden="true" class="fas fa-arrow-right"></i></span>
+      </a>
+    </section>
+
+    <!-- FOOTER CTA -->
+    <section class="footer-cta">
+      <h2>Ready to review hotels?</h2>
+      <p>Register to access all hotel-review tasks and earn per review.</p>
+      <a href="https://mulaearn.com/register.php?ref=harzel" data-register target="_blank" rel="sponsored noopener" class="btn btn-primary btn-lg">
+        Register &nbsp;→
+      </a>
+    </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand">
+              <img src="/assets/chatdollar-logo-160.webp" alt="ChatDollar logo" width="40" height="40" />
+              <span>Chat<em>Dollar</em></span>
+            </div>
+            <p class="footer-desc">
+             Affiliate for <strong>MulaEarn</strong>, a government-registered platform. Chat online and get paid to M-Pesa.
+            </p>
+            <div class="footer-contact">
+              <span><i aria-hidden="true" class="fas fa-phone"></i> <a href="tel:+254725125473">+254 725 125 473</a></span><br />
+              <span><i aria-hidden="true" class="fas fa-envelope"></i> <a href="mailto:Chatdollar@gmail.com">Chatdollar@gmail.com</a></span>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h5>Get started</h5>
+            <div class="footer-links">
+              <a href="https://mulaearn.com/register.php?ref=harzel" data-register target="_blank" rel="sponsored noopener">Register</a>
+              <a href="#hotels">Browse hotels</a>
+              <a href="#faq">FAQ</a>
+              <a href="/chat">Get paid to chat</a>
+              <a href="https://wa.me/254725125473" target="_blank" rel="noopener">WhatsApp support</a>
+              <button class="link-btn js-install-btn" type="button" aria-label="Install ChatDollar app" hidden>Install app</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© <span id="currentYear">2026</span> ChatDollar · All rights reserved</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/hotels.js"></script>
+  </body>
+</html>

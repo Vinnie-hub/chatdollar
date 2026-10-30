@@ -1,25 +1,18 @@
 {
-  "name": "ChatDollar Site",
-  "short_name": "Chatdollar",
-  "description": "Connect and chat online and earn money",
+  "name": "ChatDollar – Chat & Hotel Review Tasks",
+  "short_name": "ChatDollar",
+  "description": "Get paid to chat online or rate and review hotels. Withdraw to M-Pesa.",
+  "id": "/",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
-  "theme_color": "#0f766e",
+  "theme_color": "#5b21e6",
+  "lang": "en-KE",
+  "categories": ["finance", "lifestyle"],
   "icons": [
-    {
-      "src": "https://res.cloudinary.com/dovhxt8ye/image/upload/v1786383436/chatdollar_logo_mypma7.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "https://res.cloudinary.com/dovhxt8ye/image/upload/v1786383436/chatdollar_logo_mypma7.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    { "src": "/assets/chatdollar-favicon-192.webp", "sizes": "192x192", "type": "image/webp", "purpose": "any" },
+    { "src": "/assets/chatdollar-icon-512.webp", "sizes": "512x512", "type": "image/webp", "purpose": "any" }
   ]
 }
